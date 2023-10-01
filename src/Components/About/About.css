@@ -1,0 +1,14 @@
+.about-container
+{
+    height: 100vh;
+}
+
+h1
+{
+    font-family: 'Lilita One', cursive;
+    font-size: 60px;
+}
+p
+{
+    font-family: 'Amaranth', sans-serif;
+}
