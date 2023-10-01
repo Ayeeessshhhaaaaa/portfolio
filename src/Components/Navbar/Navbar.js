@@ -4,13 +4,13 @@ import './Navbar.css';
 class Navbar extends React.Component {
   render() {
     return (
-      <nav>
+      <nav className='mt-5'>
         <ul>
-          <li><a href="/">About</a></li>
-          <li><a href="/Services">Services</a></li>
-          <li><a href="/Portfolio">Portfolio</a></li>
-          <li><a href="/Testimonial">Testimonial</a></li>
-          <li><a href="/contact">Contact</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Services">Services</a></li>
+          <li><a href="#Projects">Portfolio</a></li>
+          <li><a href="#Skills">Skills</a></li>
+          <li><a href="#Contact">Contact</a></li>
         </ul>
       </nav>
     );

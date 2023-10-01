@@ -1,0 +1,63 @@
+.projects-container
+{
+    height: 100vh;
+    background-color: #AFE1E1;
+}
+.project-title 
+{
+    margin-left: 50px;
+    margin-top: 50px; 
+}
+.container1
+{
+    display: flex;
+    flex-direction: row-wrap;
+}
+.card {
+    margin-left: 15px;
+    margin-bottom: 50px;
+    background: white;
+    width: 300px;
+    padding: 1.3rem;
+    border-radius: 2rem;
+    border: 3px solid transparent;
+    transition: var(--transistion);
+    text-align: center; /* Center align the contents */
+  }
+  
+  .card:hover {
+    background: rgba(255, 255, 255, 0.9); /* White with 0.1 opacity on hover */
+    border-color: #6B9999;
+  }
+  
+  .card img {
+    border-radius: 1.5rem;
+    overflow: hidden;
+    width: 100px;
+    height: auto;
+  }
+  
+  .card h3 {
+    margin: 1.2rem 0 2rem;
+    font-weight: bold;
+  }
+  
+  .portfolio_item-cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  .github-button {
+    display: flex;
+    align-items: center; /* Center items vertically */
+  }
+  
+  .icon {
+    margin-left: 5px; /* Add some spacing between text and icon */
+  }
+  
+  
+
+  
