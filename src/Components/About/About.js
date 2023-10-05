@@ -14,7 +14,7 @@ class About extends React.Component {
       <div className='about-container' id='About'>
         <Grid container spacing={2}>
           <Grid xs={6} className='left-container'>
-            <h1>Unlocking Creativity through Code and Design</h1>
+            <h1>Unlocking Creativity through Code and Design nn</h1>
             <p>Hello! I'm Ayesha Fazly, where lines of code and strokes of design collide to create digital magic.</p>
             <button>
               Let’s Talk <span className="material-symbols-outlined">send</span>
