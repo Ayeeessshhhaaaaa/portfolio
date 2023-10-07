@@ -46,13 +46,12 @@ h1
     margin-bottom: 20px; /* Add spacing between rows */
   }
   
-  .column {
-    flex: 1;
+  .column{
     display: flex;
-    flex-direction: row-wrap;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Adjust as needed to align items within the container */
     margin-right: 20px; /* Add spacing between columns */
-    gap: 100px;
+    gap: 80px;
   }
   
   .skill {
@@ -64,6 +63,7 @@ h1
   .column p {
     text-align: center;
     margin-top: 5px; /* Add spacing between the image and label */
+    margin-bottom: 5px;
     font-size: 20px; /* Adjust the font size */
   }
   

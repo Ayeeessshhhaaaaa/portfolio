@@ -15,6 +15,51 @@ import ui6 from '../Assets/ui6.png';
 import ui7 from '../Assets/ui7.png';
 import ui8 from '../Assets/ui8.png';
 
+const data = [
+  {
+    id: 1,
+    title: 'Burgerlicious Website',
+    imageUrls: [ui1,ui2,ui3,ui4],
+    demo: ''
+  },
+  {
+    id: 2,
+    title: 'Euphoria Website',
+    imageUrls: [ui1,ui2,ui3,ui4],
+    demo: ''
+  },
+  {
+    id: 3,
+    title: 'Dictionary App',
+    imageUrls: [ui1,ui2,ui3,ui4],
+    demo: ''
+  },
+  {
+    id: 4,
+    title: 'Portfolio Website',
+    imageUrls: [ui1,ui2,ui3,ui4],
+    demo: ''
+  },
+  {
+    id: 5,
+    title: 'Euphoria Website',
+    imageUrls: [ui1,ui2,ui3,ui4],
+    demo: ''
+  },
+  {
+    id: 6,
+    title: 'Dictionary App',
+    imageUrls: [ui1,ui2,ui3,ui4],
+    demo: ''
+  },
+  {
+    id: 7,
+    title: 'Portfolio Website',
+    imageUrls: [ui1,ui2,ui3,ui4],
+    demo: ''
+  },
+]
+
 
 class Projects extends React.Component {
     render() {
@@ -22,111 +67,33 @@ class Projects extends React.Component {
             <div className='projects-container' id='Projects'>
               <h1 className='project-title'>Latest Projects</h1>
               <Grid container >
-              <Grid xs={3} className='container1'>
-  <div  className='card'>
-      <Carousel showThumbs={false} showStatus={false} infiniteLoop={true}>
-        <div className='img'>
-          <img src={ui1} alt='project' />
-        </div>
-        <div className='img'>
-          <img src={ui2} alt='project' />
-        </div>
-        <div className='img'>
-          <img src={ui3} alt='project' />
-        </div>
-        <div className='img'>
-          <img src={ui4} alt='project' />
-        </div>
-        <div className='img'>
-          <img src={ui5} alt='project' />
-        </div>
-        <div className='img'>
-          <img src={ui6} alt='project' />
-        </div>
-        <div className='img'>
-          <img src={ui7} alt='project' />
-        </div>
-        <div className='img'>
-          <img src={ui8} alt='project' />
-        </div>
-      </Carousel>
-      <h3>Burgerlicious Website</h3>
-      <button>
-        View in Github<AiFillGithub className='icon' />
-       </button>
-      <div className="portfolio_item-cta">
-      </div>
-   </div>
-  </Grid>   
+              {
+              data.map(({id, imageUrls, title, demo}) =>{
+              return(
+              <Grid xs={3} key={id} className='container1'>
+                <div  className='card'>
+                    <Carousel showThumbs={false} showStatus={false} infiniteLoop={true}>
 
-  <Grid xs={3} className='container1'>
-  <div  className='card'>
-      <Carousel showThumbs={false} showStatus={false} infiniteLoop={true}>
-        <div className='img'>
-          <img src={ui1} alt='project' />
-        </div>
-        <div className='img'>
-          <img src={ui2} alt='project' />
-        </div>
-        <div className='img'>
-          <img src={ui3} alt='project' />
-        </div>
-      </Carousel>
-      <h3>Euphoria Website</h3>
-      <button>
-        View in Github<AiFillGithub className='icon' />
-       </button>
-      <div className="portfolio_item-cta">
-      </div>
-    </div>
-  </Grid>
-  
-  <Grid xs={3} className='container1'>
-  <div  className='card'>
-      <Carousel showThumbs={false} showStatus={false} infiniteLoop={true}>
-        <div className='img'>
-          <img src={ui1} alt='project' />
-        </div>
-        <div className='img'>
-          <img src={ui2} alt='project' />
-        </div>
-        <div className='img'>
-          <img src={ui3} alt='project' />
-        </div>
-      </Carousel>
-      <h3>Dictionary App</h3>
-      <button>
-        View in Github<AiFillGithub className='icon' />
-       </button>
-      <div className="portfolio_item-cta">
-      </div>
-</div>
-  </Grid>
-
-  <Grid xs={3} className='container1'>
-  <div  className='card'>
-      <Carousel showThumbs={false} showStatus={false} infiniteLoop={true}>
-        <div className='img'>
-          <img src={ui1} alt='project' />
-        </div>
-        <div className='img'>
-          <img src={ui2} alt='project' />
-        </div>
-        <div className='img'>
-          <img src={ui3} alt='project' />
-        </div>
-      </Carousel>
-      <h3>Portfolio Website</h3>
-      <button>
-        View in Github<AiFillGithub className='icon' />
-       </button>
-      <div className="portfolio_item-cta">
-      </div>
-    </div>
-  </Grid>
-
-</Grid>
-</div>
+                    {imageUrls.map((imageUrl, index) => (
+                      <div key={index} className='img'>
+                        <img src={imageUrl} alt={`project-${index}`} />
+                      </div>
+                    ))}
+                      
+                    </Carousel>
+                    <h3>{title}</h3>
+                    <div className='button-container'>
+                      <button>
+                        View in Github<AiFillGithub className='icon' />
+                      </button>
+                    </div>
+                </div>
+                </Grid>   
+              )
+            })
+            }
+    </Grid>
+    </div>
     );
     }
   }

@@ -1,12 +1,13 @@
 .projects-container
 {
-    height: 100vh;
+    max-height: 100%;
     background-color: #AFE1E1;
+    padding-top: 5px;
 }
 .project-title 
 {
     margin-left: 50px;
-    margin-top: 50px; 
+    margin-top: 20px; 
 }
 .container1
 {
@@ -40,6 +41,13 @@
   .card h3 {
     margin: 1.2rem 0 2rem;
     font-weight: bold;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    padding-left: 15px;
   }
   
   .portfolio_item-cta {

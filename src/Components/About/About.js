@@ -14,28 +14,44 @@ class About extends React.Component {
       <div className='about-container' id='About'>
         <Grid container spacing={2}>
           <Grid xs={6} className='left-container'>
-            <h1>Unlocking Creativity through Code and Design nn</h1>
+            <h1>Unlocking Creativity through Code and Design</h1>
             <p>Hello! I'm Ayesha Fazly, where lines of code and strokes of design collide to create digital magic.</p>
+            <a href="#Contact">
             <button>
               Let’s Talk <span className="material-symbols-outlined">send</span>
             </button>
+            </a>
             <button>
               Download my CV <span className="material-symbols-outlined"> person </span>
             </button>
             <p className="social-text">
             Check out my
+
+            <a href="https://github.com/Ayeeessshhhaaaaa" target="_blank" rel="noopener noreferrer">
             <div className='card1'>
             <AiFillGithub className='icon' />
             </div>
+            </a>
+
+            <a href="https://github.com/Ayeeessshhhaaaaa" target="_blank" rel="noopener noreferrer">
             <div className='card1'>
               <BsLinkedin className='icon' />
             </div>
+            </a>
+
+            <a href="https://github.com/Ayeeessshhhaaaaa" target="_blank" rel="noopener noreferrer">
             <div className='card1'>
               <AiFillInstagram className='icon' />
             </div>
+            </a>
+
+            <a href="https://github.com/Ayeeessshhhaaaaa" target="_blank" rel="noopener noreferrer">
             <div className='card1'>
               <BiLogoFacebookSquare className='icon' />
             </div>
+            </a>
+
+
             </p>
           </Grid>
           <Grid xs={4} className='right-container'>

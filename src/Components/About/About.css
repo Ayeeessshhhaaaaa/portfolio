@@ -2,6 +2,7 @@
 {
     height: 100vh;
 }
+
 .left-container
 {
     margin-top: 50px;
@@ -46,8 +47,9 @@ button {
   }
   
   .icon {
-    color: white; /* Set the icon color to white */
+    color: rgb(255, 255, 255); /* Set the icon color to white */
     font-size: 30px; /* Adjust the icon size as needed */
+    padding-right: 5px;
   }
   
   .material-symbols-outlined {

@@ -1,6 +1,5 @@
 import React, { useRef } from 'react';
 import './Contact.css';
-import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
 import emailjs from 'emailjs-com';
 import { MdOutlineEmail } from 'react-icons/md';
 import { SiWhatsapp } from 'react-icons/si';
@@ -10,21 +9,25 @@ function Contact() {
   const form = useRef(); // Create a ref for the form element
 
   const sendEmail = (e) => {
-    e.preventDefault(); // Prevent the default form submission behavior
-    // You can use email.js here to send the email
-    // Example code here
-    emailjs
-      .sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_USER_ID')
-      .then((result) => {
-        console.log(result.text);
-      })
-      .catch((error) => {
-        console.log(error.text);
-      });
-    // Reset the form after submission if needed
-    form.current.reset();
-  };
+    e.preventDefault();
 
+    emailjs
+      .sendForm(
+        'YOUR_SERVICE_ID',
+        'YOUR_TEMPLATE_ID',
+        e.target,
+        'YOUR_USER_ID'
+      )
+      .then(
+        (result) => {
+          console.log('Email sent successfully:', result.text);
+        },
+        (error) => {
+          console.error('Failed to send email:', error.text);
+        }
+      );
+  };
+  
   return (
     <section id='Contact'>
       <h1 className='head'>Get in Touch with me</h1>
