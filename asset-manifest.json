@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.27d7cf6c.css",
-    "main.js": "/portfolio/static/js/main.c18ca989.js",
+    "main.css": "/portfolio/static/css/main.1faf0b25.css",
+    "main.js": "/portfolio/static/js/main.0e2154f2.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/ui6.png": "/portfolio/static/media/ui6.4a6eed25bbd7b5a6661e.png",
     "static/media/ui1.png": "/portfolio/static/media/ui1.3f22a15798be3eb55ace.png",
@@ -12,6 +12,7 @@
     "static/media/ui2.png": "/portfolio/static/media/ui2.2ac5fa2ec37f02abdebe.png",
     "static/media/ui5.png": "/portfolio/static/media/ui5.9a4ad7581b22e1b595bc.png",
     "static/media/image1.png": "/portfolio/static/media/image1.1dfa747270fb24e32fb9.png",
+    "static/media/CV-AyeshaFazly.pdf": "/portfolio/static/media/CV-AyeshaFazly.0b8d96f1622bbe3bfd93.pdf",
     "static/media/12.png": "/portfolio/static/media/12.e0fdf91d4c07e3e508d9.png",
     "static/media/1.png": "/portfolio/static/media/1.3b4846166a8bb0b2cd03.png",
     "static/media/2.png": "/portfolio/static/media/2.0589d171d2f1786f404b.png",
@@ -29,12 +30,12 @@
     "static/media/slick.ttf": "/portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "index.html": "/portfolio/index.html",
     "static/media/slick.woff": "/portfolio/static/media/slick.295183786cd8a1389865.woff",
-    "main.27d7cf6c.css.map": "/portfolio/static/css/main.27d7cf6c.css.map",
-    "main.c18ca989.js.map": "/portfolio/static/js/main.c18ca989.js.map",
+    "main.1faf0b25.css.map": "/portfolio/static/css/main.1faf0b25.css.map",
+    "main.0e2154f2.js.map": "/portfolio/static/js/main.0e2154f2.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.27d7cf6c.css",
-    "static/js/main.c18ca989.js"
+    "static/css/main.1faf0b25.css",
+    "static/js/main.0e2154f2.js"
   ]
 }
