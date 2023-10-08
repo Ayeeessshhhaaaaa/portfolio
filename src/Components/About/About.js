@@ -44,19 +44,19 @@ class About extends React.Component {
             </div>
             </a>
 
-            <a href="https://github.com/Ayeeessshhhaaaaa" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/ayesha-fazly-88417b237/" target="_blank" rel="noopener noreferrer">
             <div className='card1'>
               <BsLinkedin className='icon' />
             </div>
             </a>
 
-            <a href="https://github.com/Ayeeessshhhaaaaa" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/_ayeshaaaaaaaaaaaa_/?igshid=OGQ5ZDc2ODk2ZA%3D%3D" target="_blank" rel="noopener noreferrer">
             <div className='card1'>
               <AiFillInstagram className='icon' />
             </div>
             </a>
 
-            <a href="https://github.com/Ayeeessshhhaaaaa" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.facebook.com/ayesha.fazly.3?mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer">
             <div className='card1'>
               <BiLogoFacebookSquare className='icon' />
             </div>
