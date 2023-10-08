@@ -1,9 +1,19 @@
 .skills-container
 {
     height: 100%;
+    width: 100%;
+    padding-bottom: 50px;
+    
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
 }
 .left-container1
 {
+  display: flex;
+  flex-direction: column;
     margin-top: 50px;
     margin-left: 60px;
 }
@@ -17,12 +27,12 @@ h1
 }
 .para
 {
+    font-weight: 600;
     margin-top: 30px;
     font-family: 'Amaranth', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     color: dimgray;
     margin-bottom: 60px;
-    font-weight: 500;
 }
 .custom-hr1 {
     border: none; /* Remove the default border */
@@ -38,6 +48,9 @@ h1
 
   .right-container1
 {
+   
+  display: flex;
+  flex-direction: column;
     margin-top: 50px;
     margin-left: 180px;
 }
@@ -51,7 +64,6 @@ h1
     flex-wrap: wrap;
     justify-content: flex-start; /* Adjust as needed to align items within the container */
     margin-right: 20px; /* Add spacing between columns */
-    gap: 80px;
   }
   
   .skill {
@@ -65,5 +77,11 @@ h1
     margin-top: 5px; /* Add spacing between the image and label */
     margin-bottom: 5px;
     font-size: 20px; /* Adjust the font size */
+  }
+
+  .skill-item{ 
+    width: 100px;
+    margin-right: 80px;
+    margin-bottom: 50px;
   }
   

@@ -20,7 +20,7 @@ const data = [
     id: 1,
     title: 'Burgerlicious Website',
     imageUrls: [ui1,ui2,ui3,ui4],
-    demo: ''
+    demo: 'https://github.com/Ayeeessshhhaaaaa/Burgerlicious'
   },
   {
     id: 2,
@@ -32,31 +32,13 @@ const data = [
     id: 3,
     title: 'Dictionary App',
     imageUrls: [ui1,ui2,ui3,ui4],
-    demo: ''
+    demo: 'https://github.com/Ayeeessshhhaaaaa/DictionaryApp'
   },
   {
     id: 4,
     title: 'Portfolio Website',
     imageUrls: [ui1,ui2,ui3,ui4],
-    demo: ''
-  },
-  {
-    id: 5,
-    title: 'Euphoria Website',
-    imageUrls: [ui1,ui2,ui3,ui4],
-    demo: ''
-  },
-  {
-    id: 6,
-    title: 'Dictionary App',
-    imageUrls: [ui1,ui2,ui3,ui4],
-    demo: ''
-  },
-  {
-    id: 7,
-    title: 'Portfolio Website',
-    imageUrls: [ui1,ui2,ui3,ui4],
-    demo: ''
+    demo: 'https://github.com/Ayeeessshhhaaaaa/portfolio'
   },
 ]
 
@@ -66,7 +48,7 @@ class Projects extends React.Component {
         return (
             <div className='projects-container' id='Projects'>
               <h1 className='project-title'>Latest Projects</h1>
-              <Grid container >
+              <Grid container className="container">
               {
               data.map(({id, imageUrls, title, demo}) =>{
               return(
@@ -83,9 +65,9 @@ class Projects extends React.Component {
                     </Carousel>
                     <h3>{title}</h3>
                     <div className='button-container'>
-                      <button>
+                      <a href={demo} className="github-button" target="_blank" rel="noopener noreferrer">
                         View in Github<AiFillGithub className='icon' />
-                      </button>
+                      </a>
                     </div>
                 </div>
                 </Grid>   

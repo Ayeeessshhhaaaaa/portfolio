@@ -3,8 +3,14 @@
     height: 100vh;
 }
 
+.container{
+  display: flex;
+  flex-direction: row;
+}
+
 .left-container
 {
+   
     margin-top: 50px;
     margin-left: 60px;
 }
@@ -34,6 +40,10 @@ button {
     outline: none; /* Remove the outline */
     margin-right: 20px;
   }
+
+  button:hover {
+    cursor: pointer;
+}
   .card1 {
     display: flex;
     align-items: center;
@@ -66,7 +76,7 @@ button {
     height: 450px;
     width: auto;
     margin-top: 60px;
-    margin-left: 40px;
+
   }
   .social-text {
     padding-top: 50px;
@@ -79,5 +89,5 @@ button {
     width: auto;
     margin-left: 20px; /* Add spacing between the text and images */
   }
-  
+
   

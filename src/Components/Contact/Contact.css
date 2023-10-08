@@ -1,64 +1,113 @@
-#Contact
-{
-    height: 110vh;
+#Contact {
+  height: 110vh;
+  width: 100%;
 }
-.head{
-    margin-left: 50px;
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
+
+.head {
+  margin-left: 50px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
 }
 .container.contact_container {
-    width: 70%;
-    display: grid;
-    grid-template-columns: 30% 70%;
-    gap: 10%;
+  width: 70%;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  gap: 10%;
 }
 
 .contact_options {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .contact_option {
-    background-color:#AFE1E1 ;
-    width: 250px;
-    height: 150px;
-    border-radius: 20px;
-    text-align: center;
-    margin-left: 90px;
-    border: 3px;
-    line-height: 10px;
-    padding-top: 8px;
+  background-color: #afe1e1;
+  width: 250px;
+  height: 150px;
+  border-radius: 20px;
+  text-align: center;
+  margin-left: 90px;
+  border: 3px;
+  line-height: 10px;
+  padding-top: 8px;
 }
 
 .contact_option-icon {
-    margin-top: 10px;
-    font-size: 40px;
-    font-family: 'Amaranth', sans-serif;
-    color: white;
+  margin-top: 10px;
+  font-size: 40px;
+  font-family: "Amaranth", sans-serif;
+  color: white;
 }
 
 .contact_option a {
-    font-size: 20px;
-    color: dimgray;
-    font-family: 'Amaranth', sans-serif;
+  font-size: 20px;
+  color: dimgray;
+  font-family: "Amaranth", sans-serif;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-left: 100px;
 }
 
-input, textarea {
-     width: 130%;
-     font-family: 'Amaranth', sans-serif;
-     font-size: 20px;
-     padding: 1.5rem;
-     border-radius: 20px;
-     border: 3px solid #AFE1E1;
-     resize: none;
+input,
+textarea {
+  width: 130%;
+  font-family: "Amaranth", sans-serif;
+  font-size: 20px;
+  padding: 1.5rem;
+  border-radius: 20px;
+  border: 3px solid #afe1e1;
+  resize: none;
+}
+
+.send-button:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+  .container.contact_container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container.contact_container {
+    width: 90%;
+  }
+  .head {
+    font-size: 30px;
+    text-align: center;
+    margin-left: 1px;
+  }
+  .contact_option {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contact_options{
+    margin-bottom: 20px;
+  }
+
+  form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+
+  input,textarea {
+        width: 100%;
+    }
+
+    .send-button{
+        margin-left: 20px;
+    }
+
 }

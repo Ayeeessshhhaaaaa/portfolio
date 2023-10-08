@@ -1,6 +1,5 @@
 import React from 'react';
 import './Skills.css';
-import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
 import image1 from '../Assets/1.png';
 import image2 from '../Assets/2.png';
 import image3 from '../Assets/3.png';
@@ -98,8 +97,8 @@ class Skills extends React.Component {
   render() {
     return (
         <div className='skills-container' id='Skills'>
-          <Grid container spacing={2}>
-          <Grid xs={5} className='left-container1'>
+          <div className='container'>
+          <div xs={5} className='left-container1'>
           <h1>Skills and Experience</h1>
             <p className='para'>Welcome to my 'Skills and Experience' section, where I showcase my skills and budding experience in technology, coding, and design. Although my professional journey is in its early stages, I bring a passion for innovation and a commitment to learning.</p>
             <h1>Experience</h1>
@@ -121,9 +120,9 @@ class Skills extends React.Component {
             }
             </h3>
           </div>
-          </Grid>
+          </div>
 
-          <Grid xs={5} className='right-container1'>
+          <div className='right-container1'>
             <h1>Skills</h1>
             <div>
 
@@ -140,10 +139,10 @@ class Skills extends React.Component {
               }
             </div>
           </div>
-          </Grid>
+          </div>
 
 
-        </Grid>
+        </div>
         </div>
     );
   }
