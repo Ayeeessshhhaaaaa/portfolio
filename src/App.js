@@ -9,6 +9,10 @@ import Contact from './Components/Contact/Contact';
 function App() {
   return (
     <div>
+      <About/>
+      <Services/>
+      <Skills/>
+      <Projects/>
       <Contact/>
     </div>
   );

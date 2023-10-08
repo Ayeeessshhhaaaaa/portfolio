@@ -12,6 +12,7 @@ import image9 from '../Assets/9.png';
 import image10 from '../Assets/10.png';
 import image11 from '../Assets/11.png';
 import image12 from '../Assets/12.png';
+import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
 
 const skill = [
   {
@@ -97,18 +98,18 @@ class Skills extends React.Component {
   render() {
     return (
         <div className='skills-container' id='Skills'>
-          <div className='container'>
-          <div xs={5} className='left-container1'>
-          <h1>Skills and Experience</h1>
+           <Grid container className='container'>
+          <Grid  xs={12} md={12} lg={5} className='left-container1'>
+          <h1 className='skills-title'>Skills and Experience</h1>
             <p className='para'>Welcome to my 'Skills and Experience' section, where I showcase my skills and budding experience in technology, coding, and design. Although my professional journey is in its early stages, I bring a passion for innovation and a commitment to learning.</p>
-            <h1>Experience</h1>
+            <h1 className='skills-title'>Experience</h1>
             <div>
             <h3>
               <hr class="custom-hr1" />
               {
                 exp.map(({id, date, Name, job, description}) => {
                   return(
-                    <div key={id}>
+                    <div className='experience' key={id}>
                     <div className='exp' style={{ color: 'dimgray', fontWeight: 'bold' }}>{date}</div>
                     {Name} <br/>
                     {job} <br/>
@@ -120,10 +121,10 @@ class Skills extends React.Component {
             }
             </h3>
           </div>
-          </div>
+          </Grid>
 
-          <div className='right-container1'>
-            <h1>Skills</h1>
+          <Grid xs={12} md={12} lg={5} className='right-container1'>
+            <h1 className='skills-title'>Skills</h1>
             <div>
 
             <div className='column'>
@@ -139,10 +140,10 @@ class Skills extends React.Component {
               }
             </div>
           </div>
-          </div>
+          </Grid>
 
 
-        </div>
+        </Grid>
         </div>
     );
   }

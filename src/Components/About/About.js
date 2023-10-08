@@ -1,6 +1,7 @@
 import React from 'react';
 import './About.css';
 import image1 from '../Assets/image1.png'; // Import your image using a relative path
+import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
 import { AiFillGithub } from 'react-icons/ai';
 import { BsLinkedin } from 'react-icons/bs';
 import { AiFillInstagram } from 'react-icons/ai';
@@ -18,6 +19,8 @@ class About extends React.Component {
             <h1>Unlocking Creativity through Code and Design</h1>
             <p>Hello! I'm Ayesha Fazly, where lines of code and strokes of design collide to create digital magic.</p>
 
+
+            <div className='about-button'>
             <a href='#Contact'>
             <button>
               Let’s Talk <span className="material-symbols-outlined">send</span>
@@ -29,9 +32,11 @@ class About extends React.Component {
               Download my CV <span className="material-symbols-outlined"> person </span>
             </button>
             </a>
+            </div>
 
             <p className="social-text">
             Check out my
+
 
             <a href="https://github.com/Ayeeessshhhaaaaa" target="_blank" rel="noopener noreferrer">
             <div className='card1'>
@@ -56,6 +61,7 @@ class About extends React.Component {
               <BiLogoFacebookSquare className='icon' />
             </div>
             </a>
+
 
 
             </p>

@@ -71,6 +71,7 @@ button {
     vertical-align: middle; /* Align the icon vertically in the middle */
     margin-left: 10px; /* Adjust the spacing between text and icon */
   }
+
   .image
   {
     height: 450px;
@@ -89,5 +90,3 @@ button {
     width: auto;
     margin-left: 20px; /* Add spacing between the text and images */
   }
-
-  
