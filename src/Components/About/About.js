@@ -14,15 +14,15 @@ class About extends React.Component {
   render() {
     return (
       <div className='about-container' id='About'>
-        <div className='container'>
-          <div className='left-container'>
-            <h1>Unlocking Creativity through Code and Design</h1>
-            <p>Hello! I'm Ayesha Fazly, where lines of code and strokes of design collide to create digital magic.</p>
+        <Grid container>
+          <Grid xs={12} md={6} lg={5} className='left-container'>
+            <h1 className='about-title'>Unlocking Creativity through Code and Design</h1>
+            <p className='about-text'>Hello! I'm Ayesha Fazly, where lines of code and strokes of design collide to create digital magic.</p>
 
 
             <div className='about-button'>
             <a href='#Contact'>
-            <button>
+            <button className='about-btn'>
               Let’s Talk <span className="material-symbols-outlined">send</span>
             </button>
             </a>
@@ -37,7 +37,7 @@ class About extends React.Component {
             <p className="social-text">
             Check out my
 
-
+            <div className='social-button-container'>
             <a href="https://github.com/Ayeeessshhhaaaaa" target="_blank" rel="noopener noreferrer">
             <div className='card1'>
             <AiFillGithub className='icon' />
@@ -61,15 +61,14 @@ class About extends React.Component {
               <BiLogoFacebookSquare className='icon' />
             </div>
             </a>
-
-
+            </div>
 
             </p>
-          </div>
-          <div className='right-container'>
+          </Grid>
+          <Grid xs={12} md={6} lg={6} className='right-container'>
             <img className='image' src={image1} alt='Ayesha' />
-          </div>
-        </div>
+          </Grid>
+        </Grid>
       </div>
     );
   }

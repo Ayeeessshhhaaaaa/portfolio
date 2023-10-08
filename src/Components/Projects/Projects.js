@@ -52,7 +52,7 @@ class Projects extends React.Component {
               {
               data.map(({id, imageUrls, title, demo}) =>{
               return(
-              <Grid xs={12} md={4} lg={3} key={id} className='container1'>
+              <Grid xs={12} sm={6} md={6} lg={3} key={id} className='container1'>
                 <div  className='card'>
                     <Carousel showThumbs={false} showStatus={false} infiniteLoop={true}>
 

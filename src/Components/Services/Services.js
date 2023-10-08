@@ -11,7 +11,7 @@ class Services extends React.Component {
           <h1 className='services-title'>Services I Offer</h1>
             <p className='services-text'>As a passionate IT enthusiast with a knack for coding and a flair for design, I'm committed to delivering exceptional digital experiences.</p>
           </Grid>
-          <Grid xs={12} md={6} lg={6} className='right-container'>
+          <Grid xs={12} md={6} lg={5} className='right-container'>
             <div>
             <h2 className='h2'>
             <hr class="custom-hr" />

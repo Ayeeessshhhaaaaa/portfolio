@@ -16,10 +16,6 @@
     margin-left: 60px;
 }
 
-.right-container{
-
-}
-
 h1
 {
     margin-top: 5px;
@@ -50,6 +46,26 @@ p
       font-size: 40px;
       line-height: 80px;
   }  
+  @media screen and (max-width: 1024px) {
+    .services-title{
+        font-size: 50px;
+        text-align: center;
+    }
+    .left-container{
+        margin-left: auto;
+    }
+    .services-text{
+        font-size: 25px;
+        padding: 20px;
+        text-align: left;
+    }
+    .h2{
+        padding: 50px;
+        margin-left: auto;
+        margin-top: 5px;
+        font-size: 40px;
+    }
+  }
 
   @media screen and (max-width: 600px)
   {
@@ -63,7 +79,7 @@ p
     .services-text{
         font-size: 25px;
         padding: 20px;
-        text-align: center;
+        text-align: left;
     }
     .h2{
         padding: 50px;

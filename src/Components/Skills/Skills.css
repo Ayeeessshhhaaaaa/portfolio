@@ -74,7 +74,42 @@ h1
     margin-right: 80px;
     margin-bottom: 50px;
   }
-  
+
+  @media screen and (max-width: 1024px){
+    .skills-title{
+      text-align: center;
+      font-size: 50px;
+    }
+    .para{
+      text-align: left;
+      padding: 20px;
+    }
+    .left-container1{
+      margin-left: auto;
+      padding: 40px;
+    }
+    .right-container1{
+      margin-left: auto;
+      padding: 40px;
+    }
+    .experience, .custom-hr1{
+      width: 90%;
+      padding: 0 20px 0 20px;
+    }
+    .column {
+      padding: 40px;
+      justify-content: center; /* Reset horizontal alignment for screens greater than 600px */
+      margin-right: auto;
+    }
+    .skill-item{ 
+      width: 100px;
+      margin-right: 10px;
+      margin-left: 10px;
+      margin-bottom: 50px;
+    }
+
+  }
+
   @media screen and (max-width: 600px)
   {
     .skills-title{
@@ -82,7 +117,8 @@ h1
       font-size: 45px;
     }
     .para{
-      text-align: center;
+      text-align: left;
+      padding: 20px;
     }
     .left-container1{
       margin-left: auto;
@@ -99,6 +135,7 @@ h1
     .column {
       justify-content: center; /* Reset horizontal alignment for screens greater than 600px */
       margin-right: auto;
+      padding: 0;
     }
     .skill-item{ 
       width: 100px;

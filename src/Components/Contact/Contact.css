@@ -69,13 +69,48 @@ textarea {
   cursor: pointer;
 }
 
-@media screen and (max-width: 1024px) {
+
+@media screen and (max-width: 1024px){
   .container.contact_container {
     grid-template-columns: 1fr;
     gap: 2rem;
     margin-left: auto;
     margin-right: auto;
   }
+  
+  .container.contact_container {
+    width: 90%;
+  }
+  .head {
+    font-size: 50px;
+    text-align: center;
+    margin-left: 1px;
+  }
+  .contact_option {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contact_options{
+    margin-bottom: 20px;
+  }
+
+  form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+
+  input,textarea {
+        width: 100%;
+    }
+
+    .send-button{
+        margin-left: 20px;
+    }
+
 }
 
 @media screen and (max-width: 600px) {

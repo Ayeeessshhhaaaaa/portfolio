@@ -1,11 +1,6 @@
 .about-container
 {
-    height: 100vh;
-}
-
-.container{
-  display: flex;
-  flex-direction: row;
+    height: 110%;
 }
 
 .left-container
@@ -77,7 +72,7 @@ button {
     height: 450px;
     width: auto;
     margin-top: 60px;
-
+    margin-left: 180px;
   }
   .social-text {
     padding-top: 50px;
@@ -89,4 +84,96 @@ button {
     height: 40px;
     width: auto;
     margin-left: 20px; /* Add spacing between the text and images */
+  }
+
+  .about-button {
+    display: flex;
+    flex-direction: row; /* Default: stack buttons in a column */
+    margin-left: 10px;
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center text horizontally */
+    /* Add spacing between buttons */
+    gap: 5px;
+  }
+
+  .social-button-container{
+    display: flex;
+    flex-direction: row;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .about-title, .about-text{
+      padding: 20px;
+    }
+    .left-container{
+      padding: 30px;
+    }
+    .right-container{
+      padding: 20px;
+      text-align: center;
+    }
+    .about-button button{
+      padding: 5px 10px 5px 10px;
+      height: 50px;
+      font-size: 18px;
+      width: auto;
+    }
+
+    .material-symbols-outlined {
+      font-size: 30px;
+    }
+
+    .image {
+      height: auto;
+      width: 400px;
+      margin: 0 auto;
+      margin-bottom: 30px;
+      margin-left: 0;
+    }
+    .social-text{
+      display: flex;
+      flex-direction: row;
+      padding: 20px;
+    }
+    .social-button-container{
+      margin-top: 20px;
+    }
+  }
+
+  @media screen and (max-width: 600px)
+  {
+    .about-title, .about-text{
+      padding: 20px;
+    }
+    .left-container{
+      padding: 20px;
+    }
+    .image {
+      height: auto;
+      width: 380px;
+      margin: 0 auto;
+      margin-bottom: 30px;
+      margin-left: 0;
+    }
+    .right-container{
+      margin-left: auto;
+      padding: 20px;
+    }
+    .about-button button{
+      padding: 5px 10px 5px 10px;
+      height: 50px;
+      font-size: 18px;
+      width: auto;
+    }
+
+    .material-symbols-outlined {
+      font-size: 30px;
+    }
+    .social-text{
+      display: flex;
+      flex-direction: column;
+    }
+    .social-button-container{
+      margin-top: 20px;
+    }
   }
