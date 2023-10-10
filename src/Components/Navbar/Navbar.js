@@ -7,11 +7,11 @@ function Navbar() {
   return (
     <nav className='mt-5'>
       <ul>
-            <li><a href="/portfolio#About">About</a></li>
-            <li><a href="/portfolio#Services">Services</a></li>
-            <li><a href="/portfolio#Projects">Portfolio</a></li>
-            <li><a href="/portfolio#Skills">Skills</a></li>
-         <li><a href="/portfolio#Contact">Contact</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#Projects">Portfolio</a></li>
+            <li><a href="#Skills">Skills</a></li>
+         <li><a href="#Contact">Contact</a></li>
         <li><Link to="/education">Education</Link></li>
       </ul>
     </nav>
