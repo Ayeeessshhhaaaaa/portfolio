@@ -13,12 +13,12 @@ const FloatNav = () => {
   const [activeNav, setActiveNav] = useState('#');
   return (
   <nav className='nav'>
-    <a href='/portfolio#About' onClick={() => setActiveNav('#About')} className={activeNav === '#About' ? 'active' : ''}><AiOutlineHome/></a>
-    <a href='/portfolio#Services' onClick={() => setActiveNav('#Services')} className={activeNav === '#Services' ? 'active' : ''}><RiServiceLine/></a>
-    <a href='/portfolio#Skills' onClick={() => setActiveNav('#Skills')} className={activeNav === '#Skills' ? 'active' : ''}><MdOutlineDesignServices/></a>
-    <a href='/portfolio#Projects' onClick={() => setActiveNav('#Projects')} className={activeNav === '#Projects' ? 'active' : ''}><AiFillFolderOpen/></a>
+    <a href='#About' onClick={() => setActiveNav('#About')} className={activeNav === '#About' ? 'active' : ''}><AiOutlineHome/></a>
+    <a href='#Services' onClick={() => setActiveNav('#Services')} className={activeNav === '#Services' ? 'active' : ''}><RiServiceLine/></a>
+    <a href='#Skills' onClick={() => setActiveNav('#Skills')} className={activeNav === '#Skills' ? 'active' : ''}><MdOutlineDesignServices/></a>
+    <a href='#Projects' onClick={() => setActiveNav('#Projects')} className={activeNav === '#Projects' ? 'active' : ''}><AiFillFolderOpen/></a>
     <a href='/education' onClick={() => setActiveNav('/education')} className={activeNav === '/education' ? 'active' : ''}><BiBookAlt/></a>
-    <a href='/portfolio#Contact' onClick={() => setActiveNav('#Contact')} className={activeNav === '#Contact' ? 'active' : ''}><BiMessageSquareDetail/></a>
+    <a href='#Contact' onClick={() => setActiveNav('#Contact')} className={activeNav === '#Contact' ? 'active' : ''}><BiMessageSquareDetail/></a>
   </nav>
   )
 }
