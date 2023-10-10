@@ -1,6 +1,6 @@
 .projects-container
 {
-    max-height: 100%;
+  min-height: 100vh;
     background-color: #AFE1E1;
     padding-top: 5px;
     padding-left: 2%;

@@ -1,6 +1,6 @@
 .services-container
 {
-    height: 100%;
+    min-height: 100vh;
     background-color: #AFE1E1;
 }
 
