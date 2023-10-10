@@ -14,8 +14,8 @@ function Navbar() {
         )}
         <li><a href="/portfolio#About">About</a></li>
         <li><a href="/portfolio#Services">Services</a></li>
-        <li><a href="/portfolio#Projects">Portfolio</a></li>
         <li><a href="/portfolio#Skills">Skills</a></li>
+        <li><a href="/portfolio#Projects">Portfolio</a></li>
         <li><a href="/portfolio#Contact">Contact</a></li>
         <li><Link to="/education">Education</Link></li>
       </ul>
