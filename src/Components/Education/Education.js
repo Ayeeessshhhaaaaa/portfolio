@@ -31,7 +31,7 @@ function Education() {
   };
 
   return (
-    <div className='about-container' id='About'>
+    <div className='education-container' id='About'>
       <Grid container>
         <Grid xs={12} md={6} lg={5} className='left-container'>
           <h1 className='about-title'>Education</h1>
@@ -39,7 +39,7 @@ function Education() {
             Throughout my educational journey, I've had the privilege of participating in the Professional Skills Module, guided by Miss Ishara Raviharee Weerasinghe. This module has been instrumental in helping me develop essential professional skills, enriching my academic experience. Below, you'll find a brief overview of my educational journey:
           </p>
         </Grid>
-        <Grid xs={12} md={6} lg={6} className='right-container'>
+        <Grid xs={12} md={6} lg={6} className='rightimg-container'>
           <img className='image' src={image1} alt='Study' />
         </Grid>
       </Grid>
@@ -49,7 +49,7 @@ function Education() {
         <Tabs
           value={selectedTab}
           onChange={handleTabChange}
-          centered
+          variant="fullWidth" // Use fullWidth variant
           indicatorColor="primary"
           textColor="primary"
         >
@@ -64,31 +64,26 @@ function Education() {
         </Tabs>
       </Paper>
 
-      <TabPanel value={selectedTab} index={0}>
+      <TabPanel value={selectedTab} index={0} style={{padding: '0'}}>
           <Lesson1 />
       </TabPanel>
-      <TabPanel value={selectedTab} index={1} style={{padding: '0px'}}>
+      <TabPanel value={selectedTab} index={1} style={{padding: '0'}}>
            <Lesson1 />
       </TabPanel>
       <TabPanel value={selectedTab} index={2}>
-        <h2>Tab 3 Content</h2>
-        <p>This is the content for Tab 3.</p>
+      <Lesson1 />
       </TabPanel>
       <TabPanel value={selectedTab} index={3}>
-        <h2>Tab 3 Content</h2>
-        <p>This is the content for Tab 3.</p>
+      <Lesson1 />
       </TabPanel>
       <TabPanel value={selectedTab} index={4}>
-        <h2>Tab 3 Content</h2>
-        <p>This is the content for Tab 3.</p>
+      <Lesson1 />
       </TabPanel>
       <TabPanel value={selectedTab} index={5}>
-        <h2>Tab 3 Content</h2>
-        <p>This is the content for Tab 3.</p>
+      <Lesson1 />
       </TabPanel>
       <TabPanel value={selectedTab} index={6}>
-        <h2>Tab 3 Content</h2>
-        <p>This is the content for Tab 3.</p>
+      <Lesson1 />
       </TabPanel>
 
     </div>

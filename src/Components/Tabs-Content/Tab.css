@@ -2,7 +2,13 @@
     background-color: #AFE1E1;
     min-height: 100vh;
     padding: 30px;
+    border-radius: 15px;
 }
+
+.css-19kzrtu {
+    padding: 0;
+}
+
 .summary-title{
     margin-top: 9px;
     margin-left: 0;
@@ -32,13 +38,26 @@
     border: none; /* Remove the default border */
     border-top: 3px solid #000; /* Set the thickness and color of the line */
     margin-top: 0; /* Adjust the vertical spacing if needed */
+    width: 60%;
+    text-align: left;
+    margin-left: 0;
   }
 
-  .left-container
+  .medium-underline{
+    border: none; /* Remove the default border */
+    border-top: 3px solid #000; /* Set the thickness and color of the line */
+    margin-top: 0; /* Adjust the vertical spacing if needed */
+    width: 100%;
+    text-align: left;
+    margin-left: 0;
+  }
+
+  .lessonleft-container
 {
     width: 50%;
     margin-top: 0;
     margin-left: 50px;
+    text-align: left;
 }
 
 .learned-title{
@@ -48,4 +67,39 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-left: 20px;
+}
+
+.learned-text{
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Amaranth;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 20px;
+}
+
+.lessonright-container{
+    margin-left: 180px;    
+}
+
+.apply-text{
+    padding-top: 30px;
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Amaranth;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 80px; /* 200% */
+}
+
+.applytext-underline{
+    border: none; /* Remove the default border */
+    border-top: 3px solid #000; /* Set the thickness and color of the line */
+    stroke: rgba(0, 0, 0, 0.60);
+    margin-top: 0; /* Adjust the vertical spacing if needed */
+    width: 100%;
+    text-align: left;
+    margin-left: 0;
 }
