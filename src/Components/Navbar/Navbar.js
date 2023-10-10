@@ -6,7 +6,6 @@ function Navbar() {
   const navigate = useNavigate();
   const location = useLocation();
 
-  // Handle navigation to the homepage ("/")
   return (
     <nav className='mt-5'>
       <ul>
