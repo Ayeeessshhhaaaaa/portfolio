@@ -4,6 +4,14 @@ import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
 import { Tabs, Tab, Paper, Box } from '@mui/material';
 import './Education.css';
 import Lesson1 from '../Tabs-Content/Lesson1';
+import Lesson2 from '../Tabs-Content/Lesson2';
+import Lesson3 from '../Tabs-Content/Lesson3';
+import Lesson4 from '../Tabs-Content/Lesson4';
+import Lesson5 from '../Tabs-Content/Lesson5';
+import Lesson6 from '../Tabs-Content/Lesson6';
+import Lesson7 from '../Tabs-Content/Lesson7';
+
+
 
 function TabPanel({ children, value, index }) {
   return (
@@ -68,22 +76,22 @@ function Education() {
           <Lesson1 />
       </TabPanel>
       <TabPanel value={selectedTab} index={1} style={{padding: '0'}}>
-           <Lesson1 />
+           <Lesson2 />
       </TabPanel>
       <TabPanel value={selectedTab} index={2}>
-      <Lesson1 />
+      <Lesson3 />
       </TabPanel>
       <TabPanel value={selectedTab} index={3}>
-      <Lesson1 />
+      <Lesson4 />
       </TabPanel>
       <TabPanel value={selectedTab} index={4}>
-      <Lesson1 />
+      <Lesson5 />
       </TabPanel>
       <TabPanel value={selectedTab} index={5}>
-      <Lesson1 />
+      <Lesson6 />
       </TabPanel>
       <TabPanel value={selectedTab} index={6}>
-      <Lesson1 />
+      <Lesson7 />
       </TabPanel>
 
     </div>

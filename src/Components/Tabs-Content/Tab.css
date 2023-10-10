@@ -103,3 +103,60 @@
     text-align: left;
     margin-left: 0;
 }
+
+@media screen and (max-width: 1024px){
+    .lessonright-container{
+        width: 50%;
+        margin-top: 80px;
+        margin-left: 50px;
+        text-align: left;
+    }
+  }
+
+  
+@media screen and (max-width: 600px){
+
+    .lessonleft-container
+    {
+        width: 80%;
+        margin-top: 0;
+        margin-left: 0;
+        text-align: left;
+    }
+
+    .lessonright-container{
+        width: 50%;
+        margin-top: 80px;
+        margin-left: 10px;
+        text-align: left;
+    }
+
+    .services-title{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .summary-title{
+        margin-top: 9px;
+        margin-left: 0;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .summary-text{
+        font-size: 20px;
+    }
+    .apply-text{
+        padding-top: 30px;
+        font-size: 25px;
+        line-height: 60px; /* 200% */
+    }
+    .learned-title{
+        font-size: 30px;
+        margin-left: 0px;
+    }
+    
+    .learned-text{
+        font-size: 20px;
+        padding: 10px;
+    }
+}
