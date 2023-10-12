@@ -22,15 +22,12 @@ const FloatNav = () => {
           </>
   ):(
     <>
-    {location.pathname !== '/portfolio' && (
- <a href='/portfolio' onClick={() => setActiveNav('/portfolio')} className={activeNav === '/portfolio' ? 'active' : ''}><AiOutlineHome/></a>
-    )}
-    <a href='#About' onClick={() => setActiveNav('#About')} className={activeNav === '#About' ? 'active' : ''}><AiOutlineHome/></a>
-    <a href='#Services' onClick={() => setActiveNav('#Services')} className={activeNav === '#Services' ? 'active' : ''}><RiServiceLine/></a>
-    <a href='#Skills' onClick={() => setActiveNav('#Skills')} className={activeNav === '#Skills' ? 'active' : ''}><MdOutlineDesignServices/></a>
-    <a href='#Projects' onClick={() => setActiveNav('#Projects')} className={activeNav === '#Projects' ? 'active' : ''}><AiFillFolderOpen/></a>
-    <a href='/education' onClick={() => setActiveNav('/education')} className={activeNav === '/education' ? 'active' : ''}><BiBookAlt/></a>
-    <a href='#Contact' onClick={() => setActiveNav('#Contact')} className={activeNav === '#Contact' ? 'active' : ''}><BiMessageSquareDetail/></a>
+            <a href='#About' onClick={() => setActiveNav('#About')} className={activeNav === '#About' ? 'active' : ''}><AiOutlineHome/></a>
+            <a href='#Services' onClick={() => setActiveNav('#Services')} className={activeNav === '#Services' ? 'active' : ''}><RiServiceLine/></a>
+            <a href='#Skills' onClick={() => setActiveNav('#Skills')} className={activeNav === '#Skills' ? 'active' : ''}><MdOutlineDesignServices/></a>
+            <a href='#Projects' onClick={() => setActiveNav('#Projects')} className={activeNav === '#Projects' ? 'active' : ''}><AiFillFolderOpen/></a>
+            <a href='/education' onClick={() => setActiveNav('/education')} className={activeNav === '/education' ? 'active' : ''}><BiBookAlt/></a>
+            <a href='#Contact' onClick={() => setActiveNav('#Contact')} className={activeNav === '#Contact' ? 'active' : ''}><BiMessageSquareDetail/></a>
     </>
   )}
   </nav>

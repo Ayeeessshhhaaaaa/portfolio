@@ -13,12 +13,8 @@ function Navbar() {
           <li><Link to="/portfolio">Home</Link></li>
           <li><Link to="/education">Education</Link></li>
           </>
-        
         ) : (
           <>
-            {location.pathname !== '/portfolio' && (
-              <li><Link to="/portfolio">Home</Link></li>
-            )}
             <li><a href="#About">About</a></li>
             <li><a href="#Services">Services</a></li>
             <li><a href="#Skills">Skills</a></li>
