@@ -7,9 +7,9 @@ class Lesson7 extends React.Component {
   render() {
     return (
         <div className='Tab-container'>
-          <Grid container className='container'>
           <h1 className='services-title'>Telephone Etiquettes</h1>
-          <Grid xs={12} md={5} lg={5} className='lessonleft-container'>
+          <div container className='container'>
+          <div xs={12} md={5} lg={5} className='lessonleft-container'>
             <h2 className='summary-title'>Summary</h2>
             <hr class="underline" />
             <div className='summary-text'>
@@ -26,10 +26,10 @@ class Lesson7 extends React.Component {
                   Resolving customer issues promptly during the call.<br />
                   Ending conversations on a positive note and ensuring follow-through on promises made.<br />
             </div>
-          </Grid>
+          </div>
 
 
-          <Grid xs={12} md={5} lg={5} className='lessonright-container'>
+          <div xs={12} md={5} lg={5} className='lessonright-container'>
           <h2 className='summary-title'>How can I Apply Them</h2>
             <hr class="medium-underline" />
             <div className='apply-text'>
@@ -49,7 +49,9 @@ class Lesson7 extends React.Component {
                   <hr class="applytext-underline" />
                   Ending on a positive note <br />
             </div>
-          </Grid>
+          </div>
+
+          </div>
 
           <h2 className='learned-title'>What I Learned</h2>
           <hr class="medium-underline" />
@@ -65,8 +67,7 @@ class Lesson7 extends React.Component {
               <br />
               <img className='poster' src={poster} alt='poster' />
           </div>
-          </Grid>
-        </div>
+          </div>
     );
   }
 }

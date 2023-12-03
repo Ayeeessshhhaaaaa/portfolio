@@ -6,9 +6,9 @@ class Lesson5 extends React.Component {
   render() {
     return (
         <div className='Tab-container'>
-          <Grid container className='container'>
           <h1 className='services-title'>Speaking Skills</h1>
-          <Grid xs={12} md={5} lg={5} className='lessonleft-container'>
+          <div container className='container'>
+          <div className='lessonleft-container'>
             <h2 className='summary-title'>Summary</h2>
             <hr class="underline" />
             <div className='summary-text'>
@@ -23,10 +23,10 @@ class Lesson5 extends React.Component {
                 Activity - Leading a Meeting: <br />
                 Practicing meeting facilitation by simulating a meeting scenario, assigning roles, discussing improvement strategies, and leading discussions on upgrading a rehabilitation center.<br />
             </div>
-          </Grid>
+          </div>
+        
 
-
-          <Grid xs={12} md={5} lg={5} className='lessonright-container'>
+          <div xs={12} md={5} lg={5} className='lessonright-container'>
           <h2 className='summary-title'>How can I Apply Them</h2>
             <hr class="medium-underline" />
             <div className='apply-text'>
@@ -40,7 +40,8 @@ class Lesson5 extends React.Component {
                   <hr class="applytext-underline" />
                   Facilitating Meetings <br />
             </div>
-          </Grid>
+            </div>
+          </div>
 
           <h2 className='learned-title'>What I Learned</h2>
           <hr class="medium-underline" />
@@ -51,8 +52,8 @@ class Lesson5 extends React.Component {
                 Facilitation Skills: Practicing leadership skills in conducting and facilitating meetings effectively.<br />
                 Problem-Solving in Meetings: Anticipating and addressing potential issues that might arise during meetings.<br />
           </div>
-          </Grid>
-        </div>
+          </div>
+        
     );
   }
 }
