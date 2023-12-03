@@ -14,12 +14,15 @@ import ui5 from '../Assets/ui5.png';
 import ui6 from '../Assets/ui6.png';
 import ui7 from '../Assets/ui7.png';
 import ui8 from '../Assets/ui8.png';
+import ui9 from '../Assets/ui9.jpeg';
+import ui10 from '../Assets/ui10.jpeg';
+import ui11 from '../Assets/ui11.jpeg';
 
 const data = [
   {
     id: 1,
     title: 'Burgerlicious Website',
-    imageUrls: [ui1,ui2,ui3,ui4],
+    imageUrls: [ui1,ui2,ui3,ui4,ui5,ui6,ui7,ui8],
     demo: 'https://github.com/Ayeeessshhhaaaaa/Burgerlicious'
   },
   {
@@ -31,7 +34,7 @@ const data = [
   {
     id: 3,
     title: 'Dictionary App',
-    imageUrls: [ui1,ui2,ui3,ui4],
+    imageUrls: [ui9,ui10,ui11],
     demo: 'https://github.com/Ayeeessshhhaaaaa/DictionaryApp'
   },
   {
@@ -57,9 +60,9 @@ class Projects extends React.Component {
                     <Carousel showThumbs={false} showStatus={false} infiniteLoop={true}>
 
                     {imageUrls.map((imageUrl, index) => (
-                      <div key={index} className='img'>
-                        <img src={imageUrl} alt={`project-${index}`} />
-                      </div>
+                      <div key={index} className='imgContainer'>
+                      <img className='imgContent' src={imageUrl} alt={`project-${index}`} />
+                    </div>                    
                     ))}
                       
                     </Carousel>
