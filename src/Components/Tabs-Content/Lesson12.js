@@ -7,7 +7,7 @@ class Lesson10 extends React.Component {
     return (
         <div className='Tab-container'>
           <Grid container className='container'>
-          <h1 className='services-title'>Negotiation Skills</h1> <br />
+          <h1 className='services-title'>Etiquette, professionalism & connections</h1> <br />
           <h3>Guest Lecture by: Dr BMK Perera</h3>
           <Grid xs={12} md={5} lg={5} className='lessonleft-container'>
             <h2 className='summary-title'>Summary</h2>
