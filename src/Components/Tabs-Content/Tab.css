@@ -13,6 +13,11 @@
     padding: 0;
 }
 
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
 .summary-title{
     margin-top: 9px;
     margin-left: 0;
@@ -58,10 +63,11 @@
 
   .lessonleft-container
 {
-    width: 50%;
+    width: 40%;
     margin-top: 0;
     margin-left: 50px;
     text-align: left;
+    height: auto;
 }
 
 .learned-title{
@@ -85,7 +91,9 @@
 }
 
 .lessonright-container{
-    margin-left: 180px;    
+    margin-left: 180px;  
+    height: auto;  
+    width: 40%;
 }
 
 .apply-text{
