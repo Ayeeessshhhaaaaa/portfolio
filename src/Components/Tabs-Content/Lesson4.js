@@ -7,34 +7,21 @@ class Lesson4 extends React.Component {
     return (
         <div className='Tab-container'>
           <Grid container className='container'>
-          <h1 className='services-title'>Introduction to Professional Skills</h1>
+          <h1 className='services-title'>Portfolio Writing</h1>
           <Grid xs={12} md={5} lg={5} className='lessonleft-container'>
             <h2 className='summary-title'>Summary</h2>
             <hr class="underline" />
             <div className='summary-text'>
-              Professional Skills: <br />
-              Crucial for work success. <br />
-
-              Employability Skills: <br />
-              Valued by employers. <br />
-
-              Workplace Skills: <br />
-              Technical, soft, transferable. <br />
-
-              Values & Character: <br />
-              Guide behavior, define integrity. <br />
-
-              Examples: <br />
-              Values: Honesty, respect, fairness. <br />
-              Beliefs: Growth mindset, optimism. <br />
-              Attitudes: Positivity, empathy. <br />
-              Character Traits: Trustworthiness, responsibility. <br />
-
-              Importance: <br />
-              Boost employability, support career growth. <br />
-              
-              Development: <br />
-              Learn, apply, seek feedback, embrace challenges. <br />
+            Uses of Portfolios: <br />
+            Explored the multifaceted uses of portfolios, including job applications, career advancement, creative industries, education assessments, teaching, freelancing, performance evaluation, skill demonstration, entrepreneurship, networking, personal branding, and career transitions.<br />
+            Types of Portfolios: <br />
+            Detailed four main types - Personal, Career/Dossier, Employment, and Assessment Portfolios - each serving distinct purposes in showcasing skills, achievements, and progress.<br />
+            Steps to Create Portfolios: <br />
+            Outlined comprehensive steps for creating an assessment portfolio, including defining purpose, choosing format, collecting materials, organization, context provision, self-assessment, and regular updates.<br />
+            Online Platforms for Portfolios: <br />
+            Listed various online sources like LinkedIn, Behance, Google Sites, WordPress, and others as platforms to create and showcase portfolios.<br />
+            Writing Portfolios: <br />
+            Explored the concept of writing portfolios, their purpose, contents, formats, target audience considerations, and the importance of regular updates.<br />
             </div>
           </Grid>
 
@@ -43,31 +30,26 @@ class Lesson4 extends React.Component {
           <h2 className='summary-title'>How can I Apply Them</h2>
             <hr class="medium-underline" />
             <div className='apply-text'>
-                  Self-Reflection <br />
+               Portfolio Creation <br />
                   <hr class="applytext-underline" />
-                  Skill Enhancement <br />
+                  Utilizing Online Platforms <br />
                   <hr class="applytext-underline" />
-                  Job Applications <br />
+                  Writing Portfolios <br />
                   <hr class="applytext-underline" />
-                  Interview Preparation <br />
+                  Regular Updates <br />
                   <hr class="applytext-underline" />
-                  Workplace Behavior <br />
-                  <hr class="applytext-underline" />
-                  Continuous Learning <br />
-                  <hr class="applytext-underline" />
-                  Challenge Acceptance <br />
+                  Targeted Tailoring <br />
             </div>
           </Grid>
 
           <h2 className='learned-title'>What I Learned</h2>
           <hr class="medium-underline" />
           <div className='learned-text'>
-          · Professional Skills: We found out that professional skills are those non-technical abilities you need at work, like communication, teamwork, and leadership. <br />
-          · Types of Skills: We now know there are technical skills (job-specific), soft skills (communication and more), and transferable skills (useful in various roles). <br />
-          · Personal Qualities: We talked about values, beliefs, attitudes, and character traits and how they shape our behavior and choices. <br />
-          · Why Skills Matter: We understood why these skills are vital – they boost your chances of getting hired, make you successful at work, and help you advance in your career. <br />
-          · Improvement Tips: We got some practical advice on how to develop these skills, like continuous learning and seeking feedback. <br />
-          · Course Details: We learned about what's expected in the course, including assessments, attendance rules, and enrolment info. <br />
+              Diverse Portfolio Uses: Understanding the versatile applications of portfolios across various professional contexts.<br />
+              Portfolio Types: Grasping the different types of portfolios and their specific purposes in presenting skills and achievements.<br />
+              Portfolio Creation Process: Learning the systematic approach to creating an effective portfolio, from defining purpose to providing context and regular updates.<br />
+              Online Platforms: Discovering various online platforms and tools available for showcasing portfolios effectively.<br />
+              Writing Portfolio Significance: Understanding the significance of writing portfolios, including their purpose, content selection, and audience considerations.<br />
           </div>
           </Grid>
         </div>

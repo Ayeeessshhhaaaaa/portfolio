@@ -7,34 +7,21 @@ class Lesson5 extends React.Component {
     return (
         <div className='Tab-container'>
           <Grid container className='container'>
-          <h1 className='services-title'>Introduction to Professional Skills</h1>
+          <h1 className='services-title'>Speaking Skills</h1>
           <Grid xs={12} md={5} lg={5} className='lessonleft-container'>
             <h2 className='summary-title'>Summary</h2>
             <hr class="underline" />
             <div className='summary-text'>
-              Professional Skills: <br />
-              Crucial for work success. <br />
-
-              Employability Skills: <br />
-              Valued by employers. <br />
-
-              Workplace Skills: <br />
-              Technical, soft, transferable. <br />
-
-              Values & Character: <br />
-              Guide behavior, define integrity. <br />
-
-              Examples: <br />
-              Values: Honesty, respect, fairness. <br />
-              Beliefs: Growth mindset, optimism. <br />
-              Attitudes: Positivity, empathy. <br />
-              Character Traits: Trustworthiness, responsibility. <br />
-
-              Importance: <br />
-              Boost employability, support career growth. <br />
-              
-              Development: <br />
-              Learn, apply, seek feedback, embrace challenges. <br />
+                Terminology in Meetings: <br />
+                Understanding the specific language and terms used in meetings to communicate effectively.<br />
+                Types of Meetings: <br />
+                Identifying various types of professional meetings and their characteristics.<br />
+                Planning Meetings: <br />
+                Discussing the essential checklist for planning and organizing meetings, including determining objectives, attendees, location, duration, formality, required papers, and anticipating potential issues.<br />
+                Contributing Effectively: <br />
+                Learning strategies and techniques to contribute effectively during meetings.<br />
+                Activity - Leading a Meeting: <br />
+                Practicing meeting facilitation by simulating a meeting scenario, assigning roles, discussing improvement strategies, and leading discussions on upgrading a rehabilitation center.<br />
             </div>
           </Grid>
 
@@ -43,31 +30,26 @@ class Lesson5 extends React.Component {
           <h2 className='summary-title'>How can I Apply Them</h2>
             <hr class="medium-underline" />
             <div className='apply-text'>
-                  Self-Reflection <br />
+                  Understanding Meeting Terminology <br />
                   <hr class="applytext-underline" />
-                  Skill Enhancement <br />
+                  Types of Meetings <br />
                   <hr class="applytext-underline" />
-                  Job Applications <br />
+                  Planning Meetings <br />
                   <hr class="applytext-underline" />
-                  Interview Preparation <br />
+                  Active Contribution <br />
                   <hr class="applytext-underline" />
-                  Workplace Behavior <br />
-                  <hr class="applytext-underline" />
-                  Continuous Learning <br />
-                  <hr class="applytext-underline" />
-                  Challenge Acceptance <br />
+                  Facilitating Meetings <br />
             </div>
           </Grid>
 
           <h2 className='learned-title'>What I Learned</h2>
           <hr class="medium-underline" />
           <div className='learned-text'>
-          · Professional Skills: We found out that professional skills are those non-technical abilities you need at work, like communication, teamwork, and leadership. <br />
-          · Types of Skills: We now know there are technical skills (job-specific), soft skills (communication and more), and transferable skills (useful in various roles). <br />
-          · Personal Qualities: We talked about values, beliefs, attitudes, and character traits and how they shape our behavior and choices. <br />
-          · Why Skills Matter: We understood why these skills are vital – they boost your chances of getting hired, make you successful at work, and help you advance in your career. <br />
-          · Improvement Tips: We got some practical advice on how to develop these skills, like continuous learning and seeking feedback. <br />
-          · Course Details: We learned about what's expected in the course, including assessments, attendance rules, and enrolment info. <br />
+                Meeting Vocabulary: Acquiring terminology and language specific to meetings for clearer communication.<br />
+                Meeting Preparation: Understanding the importance of thorough planning and preparation for successful meetings.<br />
+                Effective Contribution: Learning techniques to contribute productively and confidently during meetings.<br />
+                Facilitation Skills: Practicing leadership skills in conducting and facilitating meetings effectively.<br />
+                Problem-Solving in Meetings: Anticipating and addressing potential issues that might arise during meetings.<br />
           </div>
           </Grid>
         </div>

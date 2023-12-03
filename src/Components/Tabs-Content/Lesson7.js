@@ -1,40 +1,30 @@
 import React from 'react';
 import './Tab.css';
 import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
+import poster from '../Assets/poster.jpeg';
 
 class Lesson7 extends React.Component {
   render() {
     return (
         <div className='Tab-container'>
           <Grid container className='container'>
-          <h1 className='services-title'>Introduction to Professional Skills</h1>
+          <h1 className='services-title'>Telephone Etiquettes</h1>
           <Grid xs={12} md={5} lg={5} className='lessonleft-container'>
             <h2 className='summary-title'>Summary</h2>
             <hr class="underline" />
             <div className='summary-text'>
-              Professional Skills: <br />
-              Crucial for work success. <br />
-
-              Employability Skills: <br />
-              Valued by employers. <br />
-
-              Workplace Skills: <br />
-              Technical, soft, transferable. <br />
-
-              Values & Character: <br />
-              Guide behavior, define integrity. <br />
-
-              Examples: <br />
-              Values: Honesty, respect, fairness. <br />
-              Beliefs: Growth mindset, optimism. <br />
-              Attitudes: Positivity, empathy. <br />
-              Character Traits: Trustworthiness, responsibility. <br />
-
-              Importance: <br />
-              Boost employability, support career growth. <br />
-              
-              Development: <br />
-              Learn, apply, seek feedback, embrace challenges. <br />
+                  Importance of first impressions: <br />
+                  The first 6 seconds of a call can shape a customer's perception.<br />
+                  Statistics highlighting the significance of telephone etiquette.<br />
+                  The impact of an upbeat tone and prompt answering on customer satisfaction.<br />
+                  Steps to perfect telephone etiquette: <br />
+                  Seven key steps discussed in detail.<br />
+                  Importance of introductions, use of names, and personalizing conversations.<br />
+                  Staying focused, giving full attention to customers, and avoiding distractions.<br />
+                  Note-taking strategies and active listening techniques.<br />
+                  Avoiding annoying habits like eating or chewing while on the phone.<br />
+                  Resolving customer issues promptly during the call.<br />
+                  Ending conversations on a positive note and ensuring follow-through on promises made.<br />
             </div>
           </Grid>
 
@@ -43,31 +33,37 @@ class Lesson7 extends React.Component {
           <h2 className='summary-title'>How can I Apply Them</h2>
             <hr class="medium-underline" />
             <div className='apply-text'>
-                  Self-Reflection <br />
+                  Prompt and positive answering <br />
                   <hr class="applytext-underline" />
-                  Skill Enhancement <br />
+                  Proper introductions <br />
                   <hr class="applytext-underline" />
                   Job Applications <br />
                   <hr class="applytext-underline" />
-                  Interview Preparation <br />
+                  Proper introductions <br />
                   <hr class="applytext-underline" />
-                  Workplace Behavior <br />
+                  Focused attention <br />
                   <hr class="applytext-underline" />
-                  Continuous Learning <br />
+                  Effective note-taking <br />
                   <hr class="applytext-underline" />
-                  Challenge Acceptance <br />
+                  Resolving issues promptly <br />
+                  <hr class="applytext-underline" />
+                  Ending on a positive note <br />
             </div>
           </Grid>
 
           <h2 className='learned-title'>What I Learned</h2>
           <hr class="medium-underline" />
           <div className='learned-text'>
-          · Professional Skills: We found out that professional skills are those non-technical abilities you need at work, like communication, teamwork, and leadership. <br />
-          · Types of Skills: We now know there are technical skills (job-specific), soft skills (communication and more), and transferable skills (useful in various roles). <br />
-          · Personal Qualities: We talked about values, beliefs, attitudes, and character traits and how they shape our behavior and choices. <br />
-          · Why Skills Matter: We understood why these skills are vital – they boost your chances of getting hired, make you successful at work, and help you advance in your career. <br />
-          · Improvement Tips: We got some practical advice on how to develop these skills, like continuous learning and seeking feedback. <br />
-          · Course Details: We learned about what's expected in the course, including assessments, attendance rules, and enrolment info. <br />
+                The critical impact of first impressions in customer interactions. <br />
+                The significance of maintaining focus and active listening during phone conversations. <br />
+                The importance of professionalism, follow-through, and resolution in customer service. <br />
+                Strategies to maintain a positive and customer-centric approach in all interactions. <br />
+          </div>
+          <div className='imgCont'> 
+              <h2>Poster Made for Telephone Etiquettes</h2>
+              <hr class="medium-underline" />
+              <br />
+              <img className='poster' src={poster} alt='poster' />
           </div>
           </Grid>
         </div>

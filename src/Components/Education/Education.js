@@ -10,6 +10,11 @@ import Lesson4 from '../Tabs-Content/Lesson4';
 import Lesson5 from '../Tabs-Content/Lesson5';
 import Lesson6 from '../Tabs-Content/Lesson6';
 import Lesson7 from '../Tabs-Content/Lesson7';
+import Lesson8 from '../Tabs-Content/Lesson8';
+import Lesson9 from '../Tabs-Content/Lesson9';
+import Lesson10 from '../Tabs-Content/Lesson7';
+import Lesson11 from '../Tabs-Content/Lesson7';
+import Lesson12 from '../Tabs-Content/Lesson7';
 
 
 
@@ -68,6 +73,11 @@ function Education() {
           <Tab  label="Lesson 5" style={{  backgroundColor: '#6B9999', color: 'white' }}/>
           <Tab  label="Lesson 6" style={{  backgroundColor: '#6B9999', color: 'white' }}/>
           <Tab  label="Lesson 7" style={{  backgroundColor: '#6B9999', color: 'white' }}/>
+          <Tab  label="Lesson 8" style={{  backgroundColor: '#6B9999', color: 'white' }}/>
+          <Tab  label="Lesson 9" style={{  backgroundColor: '#6B9999', color: 'white' }}/>
+          <Tab  label="Lesson 10" style={{  backgroundColor: '#6B9999', color: 'white' }}/>
+          <Tab  label="Lesson 11" style={{  backgroundColor: '#6B9999', color: 'white' }}/>
+          <Tab  label="Lesson 12" style={{  backgroundColor: '#6B9999', color: 'white' }}/>
 
         </Tabs>
       </Paper>
@@ -92,6 +102,21 @@ function Education() {
       </TabPanel>
       <TabPanel value={selectedTab} index={6}>
       <Lesson7 />
+      </TabPanel>
+      <TabPanel value={selectedTab} index={7}>
+      <Lesson8 />
+      </TabPanel>
+      <TabPanel value={selectedTab} index={8}>
+      <Lesson9 />
+      </TabPanel>
+      <TabPanel value={selectedTab} index={9}>
+      <Lesson10 />
+      </TabPanel>
+      <TabPanel value={selectedTab} index={10}>
+      <Lesson11 />
+      </TabPanel>
+      <TabPanel value={selectedTab} index={11}>
+      <Lesson12 />
       </TabPanel>
 
     </div>

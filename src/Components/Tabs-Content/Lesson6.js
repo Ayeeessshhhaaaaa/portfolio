@@ -7,34 +7,21 @@ class Lesson6 extends React.Component {
     return (
         <div className='Tab-container'>
           <Grid container className='container'>
-          <h1 className='services-title'>Introduction to Professional Skills</h1>
+          <h1 className='services-title'>Email Etiquettes</h1>
           <Grid xs={12} md={5} lg={5} className='lessonleft-container'>
             <h2 className='summary-title'>Summary</h2>
             <hr class="underline" />
             <div className='summary-text'>
-              Professional Skills: <br />
-              Crucial for work success. <br />
-
-              Employability Skills: <br />
-              Valued by employers. <br />
-
-              Workplace Skills: <br />
-              Technical, soft, transferable. <br />
-
-              Values & Character: <br />
-              Guide behavior, define integrity. <br />
-
-              Examples: <br />
-              Values: Honesty, respect, fairness. <br />
-              Beliefs: Growth mindset, optimism. <br />
-              Attitudes: Positivity, empathy. <br />
-              Character Traits: Trustworthiness, responsibility. <br />
-
-              Importance: <br />
-              Boost employability, support career growth. <br />
-              
-              Development: <br />
-              Learn, apply, seek feedback, embrace challenges. <br />
+                Basic Email Setup: <br />
+                Use your official email for academic and professional communication. Ensure your settings reflect your English name. Also, set up a professional signature with necessary contact information.<br />
+                Subject Lines: <br />
+                Emphasize clarity and relevance in the subject line. Avoid generic greetings and use keywords for easy searching.<br />
+                Greetings and Closings: <br />
+                Use appropriate salutations like "Dear Professor" or "Dear Ms./Mr." Avoid casual closings and maintain a professional tone.<br />
+                Tone in Emails: <br />
+                Emphasize politeness and clarity in your tone. Avoid demanding language and blaming; instead, use modals and courteous language.<br />
+                Templates for Various Scenarios: <br />
+                Templates were provided for absence explanations, appointment requests, seeking advice, feedback requests, and more<br />
             </div>
           </Grid>
 
@@ -43,31 +30,26 @@ class Lesson6 extends React.Component {
           <h2 className='summary-title'>How can I Apply Them</h2>
             <hr class="medium-underline" />
             <div className='apply-text'>
-                  Self-Reflection <br />
+                  Email Setup <br />
                   <hr class="applytext-underline" />
-                  Skill Enhancement <br />
+                  Subject Lines <br />
                   <hr class="applytext-underline" />
-                  Job Applications <br />
+                  Greetings and Closings <br />
                   <hr class="applytext-underline" />
-                  Interview Preparation <br />
+                  Tone in Emails <br />
                   <hr class="applytext-underline" />
-                  Workplace Behavior <br />
-                  <hr class="applytext-underline" />
-                  Continuous Learning <br />
-                  <hr class="applytext-underline" />
-                  Challenge Acceptance <br />
+                  Template Usage <br />
             </div>
           </Grid>
 
           <h2 className='learned-title'>What I Learned</h2>
           <hr class="medium-underline" />
           <div className='learned-text'>
-          · Professional Skills: We found out that professional skills are those non-technical abilities you need at work, like communication, teamwork, and leadership. <br />
-          · Types of Skills: We now know there are technical skills (job-specific), soft skills (communication and more), and transferable skills (useful in various roles). <br />
-          · Personal Qualities: We talked about values, beliefs, attitudes, and character traits and how they shape our behavior and choices. <br />
-          · Why Skills Matter: We understood why these skills are vital – they boost your chances of getting hired, make you successful at work, and help you advance in your career. <br />
-          · Improvement Tips: We got some practical advice on how to develop these skills, like continuous learning and seeking feedback. <br />
-          · Course Details: We learned about what's expected in the course, including assessments, attendance rules, and enrolment info. <br />
+          Professionalism: Understanding the importance of professionalism in email communication, including appropriate language, tone, and formatting.<br />
+          Clarity and Relevance: Emphasizing the significance of clear, concise subject lines and relevant content in emails for effective communication.<br />
+          Politeness and Respect: Learning to convey requests or inquiries politely, respecting the recipient's time and position.<br />
+          Structured Communication: Understanding the structure of various types of professional emails, including appropriate introductions, requests, and closings.<br />
+          Email Etiquette: Grasping the essential elements of email etiquette, such as avoiding casual language, using appropriate salutations, and following up professionally.<br />
           </div>
           </Grid>
         </div>

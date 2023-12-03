@@ -7,34 +7,25 @@ class Lesson2 extends React.Component {
     return (
         <div className='Tab-container'>
           <Grid container className='container'>
-          <h1 className='services-title'>Introduction to Professional Skills</h1>
+          <h1 className='services-title'>CV and Cover Letter Writing</h1>
           <Grid xs={12} md={5} lg={5} className='lessonleft-container'>
             <h2 className='summary-title'>Summary</h2>
             <hr class="underline" />
             <div className='summary-text'>
-              Professional Skills: <br />
-              Crucial for work success. <br />
-
-              Employability Skills: <br />
-              Valued by employers. <br />
-
-              Workplace Skills: <br />
-              Technical, soft, transferable. <br />
-
-              Values & Character: <br />
-              Guide behavior, define integrity. <br />
-
-              Examples: <br />
-              Values: Honesty, respect, fairness. <br />
-              Beliefs: Growth mindset, optimism. <br />
-              Attitudes: Positivity, empathy. <br />
-              Character Traits: Trustworthiness, responsibility. <br />
-
-              Importance: <br />
-              Boost employability, support career growth. <br />
-              
-              Development: <br />
-              Learn, apply, seek feedback, embrace challenges. <br />
+            Purpose of a CV: <br />
+            A CV is a comprehensive document summarizing qualifications, skills, and experiences, serving as a first impression for potential employers.<br />
+            Making a Positive Impression: <br />
+            An attention-grabbing CV is well-structured, visually appealing, and free of errors. Clear formatting and concise content are vital.<br />
+            Tailoring: <br />
+            A tailored CV aligns with the specific job, emphasizing relevant qualifications and experiences. It demonstrates genuine interest and research in the role.<br />
+            Importance of Research: <br />
+            Researching the company and job description helps identify keywords, improving CV success with applicant tracking systems (ATS).<br />
+            CV Structure and Formatting: <br />
+            Use clear layout, headings, bullet points, and consistent formatting for readability.<br />
+            Essential CV Components: <br />
+            Include personal information, professional summary, work experience (reverse chronological order), education, skills, and achievements/awards.<br />
+            Avoiding Common Mistakes: <br />
+            Be cautious of spelling errors, irrelevant details, verbosity, and formatting inconsistencies.<br />
             </div>
           </Grid>
 
@@ -45,29 +36,40 @@ class Lesson2 extends React.Component {
             <div className='apply-text'>
                   Self-Reflection <br />
                   <hr class="applytext-underline" />
-                  Skill Enhancement <br />
+                  Creating a Tailored CV <br />
                   <hr class="applytext-underline" />
-                  Job Applications <br />
+                  Researching <br />
                   <hr class="applytext-underline" />
-                  Interview Preparation <br />
+                  Formatting <br />
                   <hr class="applytext-underline" />
-                  Workplace Behavior <br />
+                  Content <br />
                   <hr class="applytext-underline" />
-                  Continuous Learning <br />
-                  <hr class="applytext-underline" />
-                  Challenge Acceptance <br />
+                  Proofreading <br />
             </div>
           </Grid>
 
           <h2 className='learned-title'>What I Learned</h2>
           <hr class="medium-underline" />
           <div className='learned-text'>
-          · Professional Skills: We found out that professional skills are those non-technical abilities you need at work, like communication, teamwork, and leadership. <br />
-          · Types of Skills: We now know there are technical skills (job-specific), soft skills (communication and more), and transferable skills (useful in various roles). <br />
-          · Personal Qualities: We talked about values, beliefs, attitudes, and character traits and how they shape our behavior and choices. <br />
-          · Why Skills Matter: We understood why these skills are vital – they boost your chances of getting hired, make you successful at work, and help you advance in your career. <br />
-          · Improvement Tips: We got some practical advice on how to develop these skills, like continuous learning and seeking feedback. <br />
-          · Course Details: We learned about what's expected in the course, including assessments, attendance rules, and enrolment info. <br />
+          Purpose of a CV (Curriculum Vitae):<br />
+          A CV is a comprehensive document summarizing your qualifications, skills, and experiences.<br />
+          Making a Positive Impression:<br />
+          An effective CV is well-structured and visually appealing.<br />
+          Tailoring Your CV:<br />
+          A tailored CV aligns with the specific job you're applying for.<br />
+          Importance of Research:<br />
+          Researching the company and job description helps identify keywords and requirements.<br />
+          CV Structure and Formatting:<br />
+          A well-structured CV has a clear and organized layout.<br />
+          Essential CV Components:<br />
+          · Personal Information<br />
+          · Professional Summary<br />
+          · Work Experience<br />
+          · Education<br />
+          · Skills<br />
+          · Achievements and Awards<br />
+          Avoiding Common Mistakes:<br />
+          Common mistakes to avoid include spelling and grammatical errors, including irrelevant or outdated information, being overly verbose or too brief, and a lack of consistency in formatting.<br />
           </div>
           </Grid>
         </div>
