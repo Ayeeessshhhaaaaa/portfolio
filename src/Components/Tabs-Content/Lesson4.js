@@ -6,9 +6,10 @@ class Lesson4 extends React.Component {
   render() {
     return (
         <div className='Tab-container'>
-          <Grid container className='container'>
-          <h1 className='services-title'>Portfolio Writing</h1>
-          <Grid xs={12} md={5} lg={5} className='lessonleft-container'>
+        <h1 className='services-title'>Portfolio Writing</h1>
+          <div container className='container'>
+
+          <div className='lessonleft-container'>
             <h2 className='summary-title'>Summary</h2>
             <hr class="underline" />
             <div className='summary-text'>
@@ -23,10 +24,10 @@ class Lesson4 extends React.Component {
             Writing Portfolios: <br />
             Explored the concept of writing portfolios, their purpose, contents, formats, target audience considerations, and the importance of regular updates.<br />
             </div>
-          </Grid>
+          </div>
 
 
-          <Grid xs={12} md={5} lg={5} className='lessonright-container'>
+          <div xs={12} md={5} lg={5} className='lessonright-container'>
           <h2 className='summary-title'>How can I Apply Them</h2>
             <hr class="medium-underline" />
             <div className='apply-text'>
@@ -40,7 +41,9 @@ class Lesson4 extends React.Component {
                   <hr class="applytext-underline" />
                   Targeted Tailoring <br />
             </div>
-          </Grid>
+          </div>
+
+          </div>
 
           <h2 className='learned-title'>What I Learned</h2>
           <hr class="medium-underline" />
@@ -51,7 +54,6 @@ class Lesson4 extends React.Component {
               Online Platforms: Discovering various online platforms and tools available for showcasing portfolios effectively.<br />
               Writing Portfolio Significance: Understanding the significance of writing portfolios, including their purpose, content selection, and audience considerations.<br />
           </div>
-          </Grid>
         </div>
     );
   }

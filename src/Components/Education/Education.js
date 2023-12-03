@@ -88,34 +88,34 @@ function Education() {
       <TabPanel value={selectedTab} index={1} style={{padding: '0'}}>
            <Lesson2 />
       </TabPanel>
-      <TabPanel value={selectedTab} index={2}>
-      <Lesson3 />
+      <TabPanel value={selectedTab} index={2} style={{padding: '0'}}>
+            <Lesson3 />
       </TabPanel>
-      <TabPanel value={selectedTab} index={3}>
-      <Lesson4 />
+      <TabPanel value={selectedTab} index={3} style={{padding: '0'}}>
+            <Lesson4 />
       </TabPanel>
-      <TabPanel value={selectedTab} index={4}>
-      <Lesson5 />
+      <TabPanel value={selectedTab} index={4} style={{padding: '0'}}>
+            <Lesson5 />
       </TabPanel>
-      <TabPanel value={selectedTab} index={5}>
-      <Lesson6 />
+      <TabPanel value={selectedTab} index={5} style={{padding: '0'}}>
+             <Lesson6 />
       </TabPanel>
-      <TabPanel value={selectedTab} index={6}>
-      <Lesson7 />
+      <TabPanel value={selectedTab} index={6} style={{padding: '0'}}>
+              <Lesson7 />
       </TabPanel>
-      <TabPanel value={selectedTab} index={7}>
-      <Lesson8 />
+      <TabPanel value={selectedTab} index={7} style={{padding: '0'}}>
+          <Lesson8 />
       </TabPanel>
-      <TabPanel value={selectedTab} index={8}>
+      <TabPanel value={selectedTab} index={8} style={{padding: '0'}}>
       <Lesson9 />
       </TabPanel>
-      <TabPanel value={selectedTab} index={9}>
+      <TabPanel value={selectedTab} index={9} style={{padding: '0'}}>
       <Lesson10 />
       </TabPanel>
-      <TabPanel value={selectedTab} index={10}>
+      <TabPanel value={selectedTab} index={10} style={{padding: '0'}}>
       <Lesson11 />
       </TabPanel>
-      <TabPanel value={selectedTab} index={11}>
+      <TabPanel value={selectedTab} index={11} style={{padding: '0'}}>
       <Lesson12 />
       </TabPanel>
 
