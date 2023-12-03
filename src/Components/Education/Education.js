@@ -12,9 +12,9 @@ import Lesson6 from '../Tabs-Content/Lesson6';
 import Lesson7 from '../Tabs-Content/Lesson7';
 import Lesson8 from '../Tabs-Content/Lesson8';
 import Lesson9 from '../Tabs-Content/Lesson9';
-import Lesson10 from '../Tabs-Content/Lesson7';
-import Lesson11 from '../Tabs-Content/Lesson7';
-import Lesson12 from '../Tabs-Content/Lesson7';
+import Lesson10 from '../Tabs-Content/Lesson10';
+import Lesson11 from '../Tabs-Content/Lesson11';
+import Lesson12 from '../Tabs-Content/Lesson12';
 
 
 

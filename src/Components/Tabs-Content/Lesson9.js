@@ -7,21 +7,17 @@ class Lesson9 extends React.Component {
     return (
         <div className='Tab-container'>
           <Grid container className='container'>
-          <h1 className='services-title'>Abstract Writing</h1>
+          <h1 className='services-title'>Writing a Project Proposal</h1>
           <Grid xs={12} md={5} lg={5} className='lessonleft-container'>
             <h2 className='summary-title'>Summary</h2>
             <hr class="underline" />
             <div className='summary-text'>
-                    Understanding Abstracts: <br />
-                    The content covered the definition and purpose of an abstract—a concise summary that represents the essence of a research paper or thesis.<br />
-                    Components of an Abstract: <br />
-                    Highlighted the typical sections such as reason for writing, problem statement, methodology, results, and implications.<br />
-                    Purpose and Necessity: <br />
-                    Discussed why abstracts are crucial for selection by readers and indexing in academic databases, required in various academic submissions like journals, grants, theses, and conference papers.<br />
-                    Types of Abstracts: <br />
-                    Described the differences between descriptive and informative abstracts.<br />
-                    Editing and Precision: <br />
-                    Emphasized the importance of precision, clarity, and adherence to word limits while editing abstracts.<br />
+            Understanding Project Proposals: <br />
+            The content emphasized the importance of clear, targeted project proposals for NGOs to secure funding and achieve their goals effectively.<br />
+            Elements of a Proposal: <br />
+            It covered various components such as justification, detailed activities, methodology, timelines, and required resources.<br />
+            Project Design: <br />
+            The lecture also highlighted the project cycle, including phases like research, design, financing, implementation, and evaluation.<br />
             </div>
           </Grid>
 
@@ -30,25 +26,23 @@ class Lesson9 extends React.Component {
           <h2 className='summary-title'>How can I Apply Them</h2>
             <hr class="medium-underline" />
             <div className='apply-text'>
-                  Sequential Writing <br />
+                 Enhanced Proposal Writing Skills <br />
                   <hr class="applytext-underline" />
-                  Structural Development <br />
+                  Preparatory Work <br />
                   <hr class="applytext-underline" />
-                  Learning from Models <br />
+                  Project Planning <br />
                   <hr class="applytext-underline" />
-                  Revision and Refinement <br />
+                  Effective Proposal Structure <br />
             </div>
           </Grid>
 
           <h2 className='learned-title'>What I Learned</h2>
           <hr class="medium-underline" />
           <div className='learned-text'>
-            Abstract Structure: <br />
-            Understanding the critical components and their sequence in constructing a comprehensive yet concise abstract.<br />
-            Adaptation to Disciplines: <br />
-            Realizing the need to adapt abstracts based on different academic disciplines and their varying emphases.<br />
-            Refinement Process: <br />
-            Emphasizing the iterative process of refining an abstract to ensure clarity, completeness, and adherence to word limits.<br />
+            Proposal Structure: Understanding the critical components of a proposal and how each section contributes to the overall effectiveness of the document.<br />
+            Preparation Importance: Recognizing the significance of preparatory work, data collection, and research in creating compelling and well-founded proposals.<br />
+            Project Planning Skills: Learning to plan projects effectively, considering timelines, resources, and strategies for successful implementation.<br />
+            Adaptability: Understanding the need to adapt proposal content based on different contexts, funder requirements, and the target audience.<br />
           </div>
           </Grid>
         </div>
