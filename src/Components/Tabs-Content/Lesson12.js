@@ -6,10 +6,10 @@ class Lesson10 extends React.Component {
   render() {
     return (
         <div className='Tab-container'>
-          <Grid container className='container'>
-          <h1 className='services-title'>Negotiation Skills</h1> <br />
+          <h1 className='services-title'>Negotiation Skills</h1>
           <h3>Guest Lecture by: Dr BMK Perera</h3>
-          <Grid xs={12} md={5} lg={5} className='lessonleft-container'>
+          <div container className='container'>
+          <div className='lessonleft-container'>
             <h2 className='summary-title'>Summary</h2>
             <hr class="underline" />
             <div className='summary-text'>
@@ -27,10 +27,10 @@ class Lesson10 extends React.Component {
                     Grooming and appearance as elements that influence how one is perceived.<br />
                     The role of body language, speech, and behavior in conveying professionalism.<br />
             </div>
-          </Grid>
+          </div>
 
 
-          <Grid xs={12} md={5} lg={5} className='lessonright-container'>
+          <div xs={12} md={5} lg={5} className='lessonright-container'>
           <h2 className='summary-title'>How can I Apply Them</h2>
             <hr class="medium-underline" />
             <div className='apply-text'>
@@ -44,7 +44,8 @@ class Lesson10 extends React.Component {
                   <hr class="applytext-underline" />
                   Professionalism <br />
             </div>
-          </Grid>
+          </div>
+          </div>
 
           <h2 className='learned-title'>What I Learned</h2>
           <hr class="medium-underline" />
@@ -55,8 +56,8 @@ class Lesson10 extends React.Component {
                 Dining etiquette and its influence on personal and professional impressions.<br />
                 Strategies to maintain professionalism, including body language and grooming.<br />
           </div>
-          </Grid>
-        </div>
+          </div>
+  
     );
   }
 }

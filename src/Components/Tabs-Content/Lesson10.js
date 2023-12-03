@@ -6,10 +6,11 @@ class Lesson10 extends React.Component {
   render() {
     return (
         <div className='Tab-container'>
-          <Grid container className='container'>
           <h1 className='services-title'>Negotiation Skills</h1> <br />
+
+          <div container className='container'>
           <h3>Guest Lecture by: Mr. Shenal Rajakarunanayake</h3>
-          <Grid xs={12} md={5} lg={5} className='lessonleft-container'>
+          <div  className='lessonleft-container'>
             <h2 className='summary-title'>Summary</h2>
             <hr class="underline" />
             <div className='summary-text'>
@@ -26,10 +27,10 @@ class Lesson10 extends React.Component {
             BATNA & ZOPA: <br />
             Explaining the concepts of Best Alternative to a Negotiated Agreement (BATNA) and Zone of Possible Agreement (ZOPA), crucial elements in negotiation strategy.<br />
             </div>
-          </Grid>
+          </div>
 
 
-          <Grid xs={12} md={5} lg={5} className='lessonright-container'>
+          <div xs={12} md={5} lg={5} className='lessonright-container'>
           <h2 className='summary-title'>How can I Apply Them</h2>
             <hr class="medium-underline" />
             <div className='apply-text'>
@@ -43,7 +44,8 @@ class Lesson10 extends React.Component {
                   <hr class="applytext-underline" />
                   Effective Communication <br />
             </div>
-          </Grid>
+          </div>
+          </div>
 
           <h2 className='learned-title'>What I Learned</h2>
           <hr class="medium-underline" />
@@ -53,8 +55,8 @@ class Lesson10 extends React.Component {
               Adaptability and Communication: Recognizing the influence of background and culture on negotiation styles and the significance of effective communication in achieving negotiation goals.<br />
               Negotiation Tactics: Learning specific negotiation tactics like building rapport, active listening, maintaining composure, offering creative solutions, and being willing to walk away.<br />
           </div>
-          </Grid>
-        </div>
+          </div>
+
     );
   }
 }
