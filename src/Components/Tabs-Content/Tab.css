@@ -5,9 +5,6 @@
     border-radius: 15px;
 }
 
-.container{
-    
-}
 
 .css-19kzrtu {
     padding: 0;
@@ -131,12 +128,28 @@
 }
 
 @media screen and (max-width: 1024px){
+    
     .lessonright-container{
-        width: 50%;
+        width: 80%;
         margin-top: 80px;
-        margin-left: 50px;
-        text-align: left;
+        margin-left: auto;
+        text-align: center;
     }
+
+    
+    .lessonleft-container
+    {
+        width: 90%;
+        margin-top: 0;
+        margin-left: 50px;
+        text-align: center;
+    }
+
+    .underline {
+        width: 90%;
+        text-align: center;
+        margin-left: 50;
+      }
   }
 
   

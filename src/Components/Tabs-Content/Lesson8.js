@@ -7,9 +7,9 @@ class Lesson8 extends React.Component {
     return (
         <div className='Tab-container'>
          <h1 className='services-title'>Abstract Writing</h1>
-          <div container className='container'>
+          <Grid container className='container'>
 
-          <div className='lessonleft-container'>
+          <Grid xs={12} md={5} lg={5} className='lessonleft-container'>
             <h2 className='summary-title'>Summary</h2>
             <hr class="underline" />
             <div className='summary-text'>
@@ -24,10 +24,10 @@ class Lesson8 extends React.Component {
                     Editing and Precision: <br />
                     Emphasized the importance of precision, clarity, and adherence to word limits while editing abstracts.<br />
             </div>
-          </div>
+          </Grid>
 
 
-          <div xs={12} md={5} lg={5} className='lessonright-container'>
+          <Grid xs={12} md={5} lg={5} className='lessonright-container'>
           <h2 className='summary-title'>How can I Apply Them</h2>
             <hr class="medium-underline" />
             <div className='apply-text'>
@@ -39,9 +39,9 @@ class Lesson8 extends React.Component {
                   <hr class="applytext-underline" />
                   Revision and Refinement <br />
             </div>
-            </div>
+            </Grid>
 
-            </div>
+            </Grid>
           
 
           <h2 className='learned-title'>What I Learned</h2>

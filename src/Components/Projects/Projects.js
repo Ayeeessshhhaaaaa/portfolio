@@ -17,6 +17,7 @@ import ui8 from '../Assets/ui8.png';
 import ui9 from '../Assets/ui9.jpeg';
 import ui10 from '../Assets/ui10.jpeg';
 import ui11 from '../Assets/ui11.jpeg';
+import ui12 from '../Assets/dictionary-image.jpeg';
 
 const data = [
   {
@@ -34,7 +35,7 @@ const data = [
   {
     id: 3,
     title: 'Dictionary App',
-    imageUrls: [ui9,ui10,ui11],
+    imageUrls: [ui12,ui10,ui11],
     demo: 'https://github.com/Ayeeessshhhaaaaa/DictionaryApp'
   },
   {

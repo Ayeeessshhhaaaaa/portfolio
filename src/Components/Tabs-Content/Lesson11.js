@@ -1,6 +1,6 @@
 import React from 'react';
 import './Tab.css';
-import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
+import Grid from '@mui/material/Grid';
 
 class Lesson10 extends React.Component {
   render() {
@@ -8,8 +8,8 @@ class Lesson10 extends React.Component {
         <div className='Tab-container'>
          <h1 className='services-title'>Emotional Intelligence</h1>
          <h3>Guest Lecture by: Dr BMK Perera</h3>
-          <div container className='container'>
-          <div  className='lessonleft-container'>
+          <Grid container className='container'>
+          <Grid xs={12} md={5} lg={5}  className='lessonleft-container'>
             <h2 className='summary-title'>Summary</h2>
             <hr class="underline" />
             <div className='summary-text'>
@@ -24,10 +24,10 @@ class Lesson10 extends React.Component {
                 Conscious vs. Unconscious Decision-Making: <br />
                 Highlighted the significance of unconscious decision-making processes, emotional valence, and the role of the subconscious mind in decision-making.<br />
             </div>
-          </div>
+          </Grid>
 
 
-          <div xs={12} md={5} lg={5} className='lessonright-container'>
+          <Grid xs={12} md={5} lg={5} className='lessonright-container'>
           <h2 className='summary-title'>How can I Apply Them</h2>
             <hr class="medium-underline" />
             <div className='apply-text'>
@@ -39,8 +39,8 @@ class Lesson10 extends React.Component {
                   <hr class="applytext-underline" />
                   Conscious vs. Unconscious Decision-Making <br />
             </div>
-          </div>
-          </div>
+          </Grid>
+          </Grid>
 
           <h2 className='learned-title'>What I Learned</h2>
           <hr class="medium-underline" />

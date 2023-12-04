@@ -9,8 +9,8 @@ class Lesson10 extends React.Component {
           <h1 className='services-title'>Negotiation Skills</h1> <br />
           <h3>Guest Lecture by: Mr. Shenal Rajakarunanayake</h3>
 
-          <div container className='container'>
-          <div  className='lessonleft-container'>
+          <Grid container className='container'>
+          <Grid xs={12} md={5} lg={5} className='lessonleft-container'>
             <h2 className='summary-title'>Summary</h2>
             <hr class="underline" />
             <div className='summary-text'>
@@ -27,10 +27,9 @@ class Lesson10 extends React.Component {
             BATNA & ZOPA: <br />
             Explaining the concepts of Best Alternative to a Negotiated Agreement (BATNA) and Zone of Possible Agreement (ZOPA), crucial elements in negotiation strategy.<br />
             </div>
-          </div>
+          </Grid>
 
-
-          <div xs={12} md={5} lg={5} className='lessonright-container'>
+          <Grid xs={12} md={5} lg={5} className='lessonright-container'>
           <h2 className='summary-title'>How can I Apply Them</h2>
             <hr class="medium-underline" />
             <div className='apply-text'>
@@ -44,8 +43,8 @@ class Lesson10 extends React.Component {
                   <hr class="applytext-underline" />
                   Effective Communication <br />
             </div>
-          </div>
-          </div>
+          </Grid>
+          </Grid>
 
           <h2 className='learned-title'>What I Learned</h2>
           <hr class="medium-underline" />

@@ -43,8 +43,8 @@
   }
   
   .imgContent {
-    width: 100%; /* Ensure the image takes the full width of the container */
-    height: 100%; /* Maintain aspect ratio */
+    width: 163px; /* Ensure the image takes the full width of the container */
+    height: 250px; /* Maintain aspect ratio */
     display: block; /* Remove default inline styling */
   }
   
@@ -52,8 +52,8 @@
   .card img {
     border-radius: 1.5rem;
     overflow: hidden;
-    width: 100px;
-    height: 100%;
+    width: 133px; /* Ensure the image takes the full width of the container */
+    height: 180px; /* Maintain aspect ratio */
   }
   
   .card h3 {
