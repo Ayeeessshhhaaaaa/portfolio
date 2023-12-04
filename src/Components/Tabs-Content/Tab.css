@@ -18,7 +18,7 @@
 .summary-title{
     margin-top: 9px;
     margin-left: 0;
-    font-family: 'Amaranth', sans-serif;
+    font-family: 'Kanit', sans-serif;
     font-size: 40px;
     line-height: 80px;
 }
@@ -26,7 +26,7 @@
     width: 90%;
     margin-top: 40px;
     color: rgba(0, 0, 0, 0.60);
-    font-family: Amaranth;
+    font-family: 'Kanit', sans-serif;
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
@@ -35,7 +35,7 @@
 .Apply-title{
     margin-top: 20px;
     margin-left: 0;
-    font-family: 'Amaranth', sans-serif;
+    font-family: 'Kanit', sans-serif;
     font-size: 40px;
     line-height: 80px;
     text-align: right;
@@ -70,7 +70,7 @@
 
 .learned-title{
     color: #000;
-    font-family: Amaranth;
+    font-family: 'Kanit', sans-serif;
     font-size: 60px;
     font-style: normal;
     font-weight: 700;
@@ -80,7 +80,7 @@
 
 .learned-text{
     color: rgba(0, 0, 0, 0.60);
-    font-family: Amaranth;
+    font-family: 'Kanit', sans-serif;
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
@@ -97,7 +97,7 @@
 .apply-text{
     padding-top: 30px;
     color: rgba(0, 0, 0, 0.60);
-    font-family: Amaranth;
+    font-family: 'Kanit', sans-serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 400;

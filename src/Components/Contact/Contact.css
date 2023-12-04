@@ -44,7 +44,7 @@
 .contact_option a {
   font-size: 20px;
   color: dimgray;
-  font-family: "Amaranth", sans-serif;
+  font-family: 'Kanit', sans-serif;
 }
 
 form {
@@ -57,7 +57,7 @@ form {
 input,
 textarea {
   width: 130%;
-  font-family: "Amaranth", sans-serif;
+  font-family: 'Kanit', sans-serif;
   font-size: 20px;
   padding: 1.5rem;
   border-radius: 20px;
