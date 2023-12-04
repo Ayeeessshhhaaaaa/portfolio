@@ -18,6 +18,16 @@ import ui9 from '../Assets/ui9.jpeg';
 import ui10 from '../Assets/ui10.jpeg';
 import ui11 from '../Assets/ui11.jpeg';
 import ui12 from '../Assets/dictionary-image.jpeg';
+import ui13 from '../Assets/ui13.png';
+import ui14 from '../Assets/ui14.png';
+import ui15 from '../Assets/ui15.png';
+import ui16 from '../Assets/ui16.png';
+import ui17 from '../Assets/ui17.png';
+import ui18 from '../Assets/ui18.png';
+import ui19 from '../Assets/ui19.png';
+import ui20 from '../Assets/ui20.png';
+import ui21 from '../Assets/ui21.png';
+
 
 const data = [
   {
@@ -29,20 +39,21 @@ const data = [
   {
     id: 2,
     title: 'Euphoria Website',
-    imageUrls: [ui1,ui2,ui3,ui4],
+    imageUrls: [ui13,ui14,ui15,ui16],
     demo: ''
   },
   {
     id: 3,
     title: 'Dictionary App',
     imageUrls: [ui12,ui10,ui11],
+    imageUrls: [ui12],
     demo: 'https://github.com/Ayeeessshhhaaaaa/DictionaryApp'
   },
   {
     id: 4,
-    title: 'Portfolio Website',
-    imageUrls: [ui1,ui2,ui3,ui4],
-    demo: 'https://github.com/Ayeeessshhhaaaaa/portfolio'
+    title: 'Car-Pal Pro Admin Panel',
+    imageUrls: [ui17,ui18,ui19,ui20,ui21],
+    demo: 'https://github.com/Ayeeessshhhaaaaa/Carpal-Pro.git'
   },
 ]
 
