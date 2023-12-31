@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.157528f9.css",
-    "main.js": "/portfolio/static/js/main.1992c6f0.js",
+    "main.css": "/portfolio/static/css/main.1c103587.css",
+    "main.js": "/portfolio/static/js/main.19341bf6.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/ui6.png": "/portfolio/static/media/ui6.4a6eed25bbd7b5a6661e.png",
     "static/media/ui1.png": "/portfolio/static/media/ui1.3f22a15798be3eb55ace.png",
@@ -16,14 +16,12 @@
     "static/media/ui15.png": "/portfolio/static/media/ui15.e06d0c6f7be3ee11704a.png",
     "static/media/image1.png": "/portfolio/static/media/image1.1dfa747270fb24e32fb9.png",
     "static/media/ui17.png": "/portfolio/static/media/ui17.965e19587cca07f22da9.png",
-    "static/media/poster.jpeg": "/portfolio/static/media/poster.a607c45f74390a4bc0c4.jpeg",
-    "static/media/CV-AyeshaFazly.pdf": "/portfolio/static/media/CV-AyeshaFazly.0b8d96f1622bbe3bfd93.pdf",
+    "static/media/CV-AyeshaFazly.pdf": "/portfolio/static/media/CV-AyeshaFazly.09b9a38dcebee7c74c1d.pdf",
     "static/media/ui16.png": "/portfolio/static/media/ui16.137c71baa016d9caeb01.png",
     "static/media/ui18.png": "/portfolio/static/media/ui18.100e5e64a79652f70231.png",
     "static/media/ui20.png": "/portfolio/static/media/ui20.9e242d9ff22ca4e4d33d.png",
     "static/media/ui19.png": "/portfolio/static/media/ui19.b1d21b280e2c6fca38e6.png",
     "static/media/ui21.png": "/portfolio/static/media/ui21.04e17ae34bb296bbf845.png",
-    "static/media/girl.png": "/portfolio/static/media/girl.7a00d7fb2efc4665a66e.png",
     "static/media/12.png": "/portfolio/static/media/12.e0fdf91d4c07e3e508d9.png",
     "static/media/1.png": "/portfolio/static/media/1.3b4846166a8bb0b2cd03.png",
     "static/media/2.png": "/portfolio/static/media/2.0589d171d2f1786f404b.png",
@@ -45,12 +43,12 @@
     "static/media/slick.ttf": "/portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "index.html": "/portfolio/index.html",
     "static/media/slick.woff": "/portfolio/static/media/slick.295183786cd8a1389865.woff",
-    "main.157528f9.css.map": "/portfolio/static/css/main.157528f9.css.map",
-    "main.1992c6f0.js.map": "/portfolio/static/js/main.1992c6f0.js.map",
+    "main.1c103587.css.map": "/portfolio/static/css/main.1c103587.css.map",
+    "main.19341bf6.js.map": "/portfolio/static/js/main.19341bf6.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.157528f9.css",
-    "static/js/main.1992c6f0.js"
+    "static/css/main.1c103587.css",
+    "static/js/main.19341bf6.js"
   ]
 }
