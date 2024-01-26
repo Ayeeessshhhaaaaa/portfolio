@@ -18,7 +18,6 @@ const FloatNav = () => {
   {location.pathname === '/education' ? (
           <>
               <a href='/portfolio' onClick={() => setActiveNav('/portfolio')} className={activeNav === '/portfolio' ? 'active' : ''}><AiOutlineHome/></a>
-              <a href='/education' onClick={() => setActiveNav('/education')} className={activeNav === '/education' ? 'active' : ''}><BiBookAlt/></a>
           </>
   ):(
     <>
@@ -26,7 +25,6 @@ const FloatNav = () => {
             <a href='#Services' onClick={() => setActiveNav('#Services')} className={activeNav === '#Services' ? 'active' : ''}><RiServiceLine/></a>
             <a href='#Skills' onClick={() => setActiveNav('#Skills')} className={activeNav === '#Skills' ? 'active' : ''}><MdOutlineDesignServices/></a>
             <a href='#Projects' onClick={() => setActiveNav('#Projects')} className={activeNav === '#Projects' ? 'active' : ''}><AiFillFolderOpen/></a>
-            <a href='/education' onClick={() => setActiveNav('/education')} className={activeNav === '/education' ? 'active' : ''}><BiBookAlt/></a>
             <a href='#Contact' onClick={() => setActiveNav('#Contact')} className={activeNav === '#Contact' ? 'active' : ''}><BiMessageSquareDetail/></a>
     </>
   )}

@@ -4,6 +4,7 @@ import emailjs from 'emailjs-com';
 import { MdOutlineEmail } from 'react-icons/md';
 import { SiWhatsapp } from 'react-icons/si';
 import { MdCall } from 'react-icons/md';
+import Swal from 'sweetalert2';
 
 function Contact() {
   const form = useRef(); // Create a ref for the form element
@@ -13,14 +14,19 @@ function Contact() {
 
     emailjs
       .sendForm(
-        'YOUR_SERVICE_ID',
-        'YOUR_TEMPLATE_ID',
+        'service_rll19on',
+        'template_ss219e6',
         e.target,
-        'YOUR_USER_ID'
+        'LUUo7dJ0R4xr9ejcN'
       )
       .then(
         (result) => {
           console.log('Email sent successfully:', result.text);
+          Swal.fire({
+            title: "E-mail Successfully sent!",
+            text: "I will get back to you shortly",
+            icon: "success"
+          });
         },
         (error) => {
           console.error('Failed to send email:', error.text);
@@ -50,16 +56,18 @@ function Contact() {
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>
-          <input type='text' name='name' placeholder='your full name' required />
-          <input type='email' name='email' placeholder='your email' required />
-          <textarea name='message' rows='7' placeholder='your message' required></textarea>
-          <button type='submit' className='send-button'>
-            send a message
-          </button>
-        </form>
+        <input type='text' name='from_name' placeholder='your full name' required />
+        <input type='email' name='email' placeholder='your email' required />
+        <textarea name='message' rows='7' placeholder='your message' required></textarea>
+        <input type='hidden' name='to_name' value='Ayesha Fazly' />
+        <button type='submit' className='send-button'>
+          send a message
+        </button>
+      </form>
+
       </div>
     </section>
   );
 }
 
-export default Contact;
+export default Contact;

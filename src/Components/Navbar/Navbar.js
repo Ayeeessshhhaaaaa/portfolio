@@ -11,7 +11,6 @@ function Navbar() {
         {location.pathname === '/education' ? (
           <>
           <li><Link to="/portfolio">Home</Link></li>
-          <li><Link to="/education">Education</Link></li>
           </>
         ) : (
           <>
@@ -20,7 +19,6 @@ function Navbar() {
             <li><a href="#Skills">Skills</a></li>
             <li><a href="#Projects">Portfolio</a></li>
             <li><a href="#Contact">Contact</a></li>
-            <li><Link to="/education">Education</Link></li>
           </>
         )}
       </ul>

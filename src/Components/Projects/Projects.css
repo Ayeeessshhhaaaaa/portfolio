@@ -27,6 +27,7 @@
     transition: var(--transistion);
     text-align: center; /* Center align the contents */
     height: 300px;
+    padding-bottom: 20px;
   }
   
   .card:hover {
@@ -44,6 +45,12 @@
   
   .imgContent {
     width: 163px; /* Ensure the image takes the full width of the container */
+    height: 250px;  /* Maintain aspect ratio */
+    display: block; /* Remove default inline styling */
+  }
+  .imgContent-width-80 {
+    max-width: 163px;
+    width: 80%;
     height: 250px;  /* Maintain aspect ratio */
     display: block; /* Remove default inline styling */
   }
